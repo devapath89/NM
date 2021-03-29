@@ -4,15 +4,21 @@ function updateViewItem(){
     document.getElementById('hovedSide').innerHTML = '' ;
     document.getElementById('selectResult').innerHTML ='';
     let html = '';
-    for(let i = 0; i < Equipments.Ability.length; i++){
-        console.log(Equipments.Ability[i], " test")
 
-    }
-    // :<img src="${Equipments.file}
+
+   //Equipments.Ability[x].file
+   
+    
+   
     
     html += `<div id="Equipments"`
     html +=`<div class="Equip">Item</div>`
-    html +=`<div class="Equip">${Equipments.Ability}</div>`
+    html +=`<div class="Equip">${Equipments.Ability}:`;
+
+    for(let thing in Equipments.Ability){ 
+        html += `<img src="${Equipments.Ability[thing].file}></div>`
+    }
+
            html +=`<div class="Equip"></div>`
            html +=`<div class="Equip">Item</div>`
            html +=`<div class="Equip">item</div>`
