@@ -11,7 +11,7 @@ function updateViewItem(){
     
    
     
-    html += `<div id="Equipments"`
+   html +=`<div class="Equipments-container"<img src=${"https://github.com/devapath89/NM/blob/main/oblig/Img/shadow_bg_opacity50.png?raw=true"}>`
     html +=`<div class="Equip">Item</div>`
     html +=`<div class="Equip">${Equipments.Ability}:`;
 

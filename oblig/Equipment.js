@@ -54,12 +54,12 @@ const Equipments = {
             //      BukijutsuBoost:4,
             //      file:'https://github.com/devapath89/NM/blob/main/oblig/Img/paperChakram.jpg?raw=true'
             // },
-            "paper-clone":{
-                Nin:16,
-                Buki:15,
-                Sta:8,
-                file2:'https://github.com/devapath89/NM/blob/main/oblig/Img/Paper%20clone.png?raw=true'
-            },
+            // "paper-clone":{
+            //     Nin:16,
+            //     Buki:15,
+            //     Sta:8,
+            //     file:'https://github.com/devapath89/NM/blob/main/oblig/Img/Paper%20clone.jpg?raw=true'
+            // },
         //     "sacred-paper-emissary":{
         //         Nin:10,
         //         Buki:10,
