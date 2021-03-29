@@ -17,6 +17,7 @@ function updateViewItem(){
 
     for(let thing in Equipments.Ability){ 
         html += `<img src="${Equipments.Ability[thing].file}></div>`
+        console.log(Equipments.Ability[thing].file)
     }
 
            html +=`<div class="Equip"></div>`
