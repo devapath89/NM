@@ -77,9 +77,9 @@ const Equipments = {
         //         Sta:10,
         //         Ele:5,
         //         Reroll:10,
-        //      file:'',
-        //         file:''
-        //     }
+        //     file:'',
+        //         file:'https://github.com/devapath89/NM/blob/main/oblig/Img/sacred%20Paperemissary.png?raw=true'
+        //  }
         
     }            
 }
