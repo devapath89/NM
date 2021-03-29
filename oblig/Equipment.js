@@ -8,7 +8,7 @@ const Equipments = {
         "shadow-thunder-blast":{
             Nin: 10,
             Attack : 5,
-            file:'oblig\Shadowthunder.png'
+            file:'https://github.com/devapath89/NM/blob/main/oblig/Shadowthunder.png?raw=true'
         },
         "limbo":{
             Tai:10,
@@ -19,7 +19,7 @@ const Equipments = {
         "divine-genesis":{
             Nin: 30,
             Gen: 30,
-            file:'https://github.com/devapath89/NM/blob/main/oblig/Img/divinegenesis.jpg?raw=true'
+            // file:'https://github.com/devapath89/NM/blob/main/oblig/Img/divinegenesis.jpg?raw=true'
         },
             "hair-camouflage":{
                  Nin: 11,
@@ -48,11 +48,11 @@ const Equipments = {
                  Buki:8,
                 file2:'https://github.com/devapath89/NM/blob/main/oblig/Img/Papershurikent.png?raw=true'
             },
-            // "paper-chakram":{
-            //     Nin:6,
-            //     Buki:10,
-            //     BukijutsuBoost:4,
-            //     file:'Img\paperChakram.jpg'
+             "paper-chakram":{
+               Nin:6,
+                Buki:10,
+                 BukijutsuBoost:4,
+                 file:'Img\paperChakram.jpg'
             },
             "paper-clone":{
                 Nin:16,
@@ -68,5 +68,6 @@ const Equipments = {
                 Reroll:10,
                 file:''
             }
-        }              
-    }
+        }  
+    }            
+   
