@@ -8,7 +8,7 @@ const Equipments = {
         "shadow-thunder-blast":{
             Nin: 10,
             Attack : 5,
-            file:'https://github.com/devapath89/NM/blob/main/oblig/Img/Shadowthunder.png?raw=true'
+            file:'oblig\Shadowthunder.png'
         },
         "limbo":{
             Tai:10,
@@ -48,11 +48,11 @@ const Equipments = {
                  Buki:8,
                 file2:'https://github.com/devapath89/NM/blob/main/oblig/Img/Papershurikent.png?raw=true'
             },
-            "paper-chakram":{
-                Nin:6,
-                Buki:10,
-                BukijutsuBoost:4,
-                file:'https://github.com/devapath89/NM/blob/main/oblig/Img/paperChakram.png?raw=true'
+            // "paper-chakram":{
+            //     Nin:6,
+            //     Buki:10,
+            //     BukijutsuBoost:4,
+            //     file:'Img\paperChakram.jpg'
             },
             "paper-clone":{
                 Nin:16,
