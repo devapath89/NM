@@ -8,7 +8,6 @@ function updateViewItem(){
 
    //Equipments.Ability[x].file
    
-    
    
     
    html +=`<div class="grid-container2">`
@@ -17,7 +16,7 @@ function updateViewItem(){
 
     for(let thing in Equipments.Ability){ 
         html += `<img src="${Equipments.Ability[thing].file}></div>`
-        console.log(Equipments.Ability[thing].file)
+        console.log(Equipments.Ability[thing].file2,"i fixeded it")
     }
 
            html +=`<div class="Equip"></div>`
