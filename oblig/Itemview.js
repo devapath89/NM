@@ -5,25 +5,32 @@ function updateViewItem(){
     document.getElementById('selectResult').innerHTML ='';
     let html = '';
 
-
+//  for(let thing in Equipments.Ability){ 
+    //     html += `<img src="${Equipments.Ability[thing].file}></div>`
+    //  console.log(Equipments.Ability[thing].file2,"i fixeded it")
+   
    //Equipments.Ability[x].file
    
-   
-    
+//    ${Equipments.Ability}
+    console.log(selectedNinja.NinjaName)
    html +=`<div class="grid-container2">`
-    html +=`<div class="Equip">Item</div>`
-    html +=`<div class="Equip">${Equipments.Ability}:`;
+   for(let option in Equipments.Ability){
+    if(option.NinjaName == selectedNinja){
 
-    for(let thing in Equipments.Ability){ 
-        html += `<img src="${Equipments.Ability[thing].file}></div>`
-        console.log(Equipments.Ability[thing].file2,"i fixeded it")
-    }
+    html +=`<div class="Equip">Item</div>`
+    html +=`<select name="Equipment" id="Equip1">`;
+    html +=  `<option >${option}</option>`
+    html += '</select>'
+//     html +=`<select name="Equipment" id="Equip2">`;
+//     html += '</select>'
+//     html +=`<select name="Equipment" id="Equip3">`;
+ }}
 
            html +=`<div class="Equip"></div>`
-           html +=`<div class="Equip">Item</div>`
-           html +=`<div class="Equip">item</div>`
-           html +=`<div class="Equip">item</div>`
-    html += `</div>`;
+           html +=`<div class="Equip"></div>`
+           html +=`<div class="Equip"></div>`
+           html +=`<div class="Equip"></div>`
+    html += `</div>`; html += '</select>'
     
     html+= `<button onclick ="runViews()">Save Equipment list</button>`
     

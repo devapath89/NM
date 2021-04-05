@@ -203,14 +203,18 @@ input{
  
   }
 
-
+#StatIn{
+  position: relative;
+  left: 10vh;
+  color: black;
+}
   .bloodline{
     position:relative;
     font-size:2vh;
    border-top: 2px solid black;
     background-color: crimson;
     right:-1.8vw;
-     top:30.5vh;
+     top: 30.6vh;
     
     
 
@@ -221,7 +225,7 @@ input{
     border-bottom: 2px solid black;
      background-color: crimson;
      right:-1.8vw;
-     top:30.5vh;
+     top:30.6vh;
      
   }
   .Blood-line{

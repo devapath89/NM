@@ -3,4 +3,8 @@
     position: relative;
     grid-template-rows: 1fr 1fr 1fr;
     border: dotted hotpink;
+  width:400px;
+}
+#Equip {
+    width:5vw;
 }
