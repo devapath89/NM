@@ -12,21 +12,49 @@ function updateViewItem(){
    //Equipments.Ability[x].file
    
 //    ${Equipments.Ability}
-    console.log(selectedNinja.NinjaName)
+   
    html +=`<div class="grid-container2">`
+   html +=`<select name="Equipment" id="Equip1">`;
    for(let option in Equipments.Ability){
-    if(option.NinjaName == selectedNinja){
 
-    html +=`<div class="Equip">Item</div>`
-    html +=`<select name="Equipment" id="Equip1">`;
-    html +=  `<option >${option}</option>`
-    html += '</select>'
+       if(Equipments.Ability[option].NinjaName == selectedNinja){
+        html +=  `<option >${option}</option>`
+       }
+
+    
+    
+   
+   
 //     html +=`<select name="Equipment" id="Equip2">`;
 //     html += '</select>'
 //     html +=`<select name="Equipment" id="Equip3">`;
- }}
+ 
+}
+html += '</select>'  
 
-           html +=`<div class="Equip"></div>`
+html +=`<select name="Equipment" id="Equip2">`;  
+for(let option in Equipments.Ability){
+  
+    if(Equipments.Ability[option].NinjaName == selectedNinja){
+        html +=  `<option>${option}</option>`
+       }}
+html += '</select>'  
+html +=`<select name="Equipment" id="Equip3">`;  
+for(let option in Equipments.Ability){
+   
+    if(Equipments.Ability[option].NinjaName == selectedNinja){
+        html +=  `<option >${option}</option>`
+       }}
+html += '</select>'  
+
+
+html+= '<select>'
+       for (let weapon in Equipments.LW){
+        html +=  `<option >${weapon}</option>`
+       }
+       html += '</select>'  
+        //    html +=`<div class="Equip">${LegendayWepons}</div>`
+           
            html +=`<div class="Equip"></div>`
            html +=`<div class="Equip"></div>`
            html +=`<div class="Equip"></div>`

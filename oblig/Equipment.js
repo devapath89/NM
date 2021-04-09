@@ -30,7 +30,7 @@ const Equipments = {
           },
             "hair-camouflage":{
                  Nin: 11,
-             file:'https://github.com/devapath89/NM/blob/main/oblig/Img/btn/haircamouflagebtn.jpg?raw=true',
+             file:'oblig\Img\btn\HairCamouflageBTN.jpg',
                 file2:'https://github.com/devapath89/NM/blob/main/oblig/Img/haircamouflage.jpg?raw=true',
                 NinjaName: "kurenai"},
             "flower-petal-escape":{
@@ -38,15 +38,14 @@ const Equipments = {
                 Gen: 20,
              file:'https://github.com/devapath89/NM/blob/main/oblig/Img/btn/flowerpetalescapebtn.jpg?raw=true',
                 file2:'https://github.com/devapath89/NM/blob/main/oblig/Img/flowerpetalescape.jpg?raw=true',
-                NinjaName: "kurenai",
+                NinjaName: "kurenai"},
             "evil-sealing":{
                 Nin:15,
                 Gen:20,
                 GenjutsuActivation:10,
              file:'https://github.com/devapath89/NM/blob/main/oblig/Img/btn/Evilsealingbtn.jpg?raw=true',
                 file2:'https://github.com/devapath89/NM/blob/main/oblig/Img/Evilsealing.jpg?raw=true',
-                NinjaName: "kurenai",
-            },   
+                NinjaName: "kurenai"},   
                     
             "string-bean-binding":{
                 Nin:10,
@@ -90,6 +89,45 @@ const Equipments = {
             NinjaName: "konan",
          }
         
-    }            
+    },
+    
+    "LW":{
+    "Scroll-of-Sutra":{  
+        Sta:15,
+        Buki:40,
+        FocusBurst: 20,
+        FokusRange: 30,
+        WindDamage: 25,
+        BukijutsuBoost: -10, 
+        file:'https://github.com/devapath89/NM/blob/main/oblig/Img/Scroll%20of%20sutra.png?raw=true'},
+      
+      "Dracolichs-Phylactery":{
+        Nin:30,
+        Gen:70,
+        Ele:40,
+        GenjutsuActivatio: 30,
+        Death:20,
+        BloodlineExp: 1,
+        file: 'https://github.com/devapath89/NM/blob/main/oblig/Img/DracolichsPhylatery.png?raw=true'},
+               
+            
+             
+      "Abaddons-Armory":{ 
+        Buki: 30,
+        Gen: 40,
+        BukijutsuRecovery : 15,
+        GenjutsuMastery:10 ,
+        file: 'https://github.com/devapath89/NM/blob/main/oblig/Img/Abaddons.jpg?raw=true'
+        },
+            
+            
+      "Arachnes-Arbalest":{ 
+        Buki : 55,
+        BukijutsuBoost: 5,
+        CriticalChance: 10,
+        file: 'https://github.com/devapath89/NM/blob/main/oblig/Img/Archnesarbalest.png?raw=true'
+              }
+            }
+
 }
-}
+ 

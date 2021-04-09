@@ -13,6 +13,7 @@
     <script src="MVCcontroller.js"></script>
     <script src="Secondarystats.JS"></script>
     <script src="Equipment.js"></script>
+    <script src="LW.js"></script>
     <script src="Itemview.js"></script>
  <img src="" alt="">
 
@@ -35,18 +36,22 @@ var selectResult = document.getElementById('selectResult')
 
 updateViewItem()
 
-function makeDivs(){
-    
-       let html = ``;
-       //tenge opp stats utifra anvn
-       //mellomlagre id osv i hver sin - dollare ut i viewloop
-     for(let option of Equipments){ //gir muligheten til og dra ut single string av en flere objektet arrey
-           if(option.Equipments == selectedNinja){}
-
-     }}
+ MakeDropDown();
+//  selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+ function MakeDropDown() {
+         let html = `<select onchange="selectNinja(this.value)">` ; 
+             // console.log("make dropdown kjører")
+         for(let ninja of Ninjas){
+           html +=  `<option >${ninja.NinjaName}</option>`
+         }
+         html += '</select>'
+      
+         hovedSide.innerHTML = html;
+     
+     }
 function selectNinja(clickedNinja) {
         selectedNinja = clickedNinja;
-        selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+        // selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
         makeDivs();
     }
    
