@@ -20,7 +20,7 @@
     
     <div id="hovedSide"></div>
     <div id="selectResult"></div>
-    <!-- <div id="result"></div> -->
+ <div id="result"></div> 
     
 
 
@@ -34,7 +34,7 @@ var selectResult = document.getElementById('selectResult')
 
 
  MakeDropDown();
- selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+ //selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
  function MakeDropDown() {
          let html = `<select onchange="selectNinja(this.value)">` ; 
              // console.log("make dropdown kjører")
@@ -52,7 +52,7 @@ var selectResult = document.getElementById('selectResult')
    
 function selectNinja(clickedNinja) {
         selectedNinja = clickedNinja;
-        selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+       // selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
         makeDivs();
     }
    

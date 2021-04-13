@@ -18,24 +18,26 @@
                 html += `</div>`;
 
                 html += `<div class=Statpoints-Point><b>Statspoint</b></div> `;
-                html += `<div Class=s01>tai in</div>`
-                html += `<div Class=s02> nin in</div>`
-                html += `<div Class=s03>buki in</div>`
-                html += `<div Class=s04>stam in</div>`
-                html += `<div Class=s05>ele in</div>`
-                html += `<div Class=s06> gen in in</div>`
-                html += `<div Class=s07> atack</div>`
-                html += `<div Class=s08>Strike in</div>`
-                html += `<div Class=s09> hit in</div>`
-                html += `<div Class=s10> Roll in</div>`
-                html += `<div Class=s11> focus in</div>`
-                html += `<div Class=s12> Burst in</div>`
-                html += `<div Class=s13> Range in</div>`
-                html += `<div Class=s14>  booost in</div>`
-                html += `<div Class=s15> Recovery in</div>`
-                html += `<div Class=s16> gen act in</div>`
-                html += `<div Class=s17> gen mast in</div>`
-                html += `<div Class=s18> gen rec in</div>`
+
+              
+                html += `<input  type="number" name="ticketNum" Class=s01>tai in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s02> nin in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s03>buki in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s04>stam in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s05>ele in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s06> gen in in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s07> atack</div>`
+                html += `<input  type="number" name="ticketNum" Class=s08>Strike in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s09> hit in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s10> Roll in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s11> focus in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s12> Burst in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s13> Range in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s14>  booost in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s15> Recovery in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s16> gen act in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s17> gen mast in</div>`
+                html += `<input  type="number" name="ticketNum" Class=s18> gen rec in</div>`
                 html +=`<div class="grid-container3">`
                 
                 // html += `<div Class=s19>in</div>`
