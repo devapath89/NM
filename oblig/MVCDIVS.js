@@ -17,34 +17,31 @@
                 html += `<div Class=used> auto input </div>`
                 html += `</div>`;
 
-                html += `<div class=Statpoints-Point><b>Statspoint</b></div> `;
 
+                html += `<div class="input-containers">`
+                html += `<div class="input-container"><b>Statspoint</b></div> `;
+                //<input type="number" id="quantity" name="quantity" min="1" max="5">//
               
-                html += `<input  type="number" name="ticketNum" Class=s01>tai in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s02> nin in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s03>buki in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s04>stam in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s05>ele in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s06> gen in in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s07> atack</div>`
-                html += `<input  type="number" name="ticketNum" Class=s08>Strike in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s09> hit in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s10> Roll in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s11> focus in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s12> Burst in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s13> Range in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s14>  booost in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s15> Recovery in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s16> gen act in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s17> gen mast in</div>`
-                html += `<input  type="number" name="ticketNum" Class=s18> gen rec in</div>`
-                html +=`<div class="grid-container3">`
-                
-                // html += `<div Class=s19>in</div>`
-                // html += `<div Class=s20>in</div>`
-                // html += `<div Class=s21>in</div>`
-                // html += `<div Class=s22>in</div>`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers01" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers02" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers03" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers04" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers05" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers06" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers07" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers08" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers09" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers10" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers11" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers12" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers13" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers14" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers15" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers16" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers17" >`
+                html += `<input  type="number" id="inn" name="ticketNum" class="input-containers18" >`
                 html += `</div>`;
+               
                 html += `</div>`;
 
                 html += `<div id="selectResult">`;

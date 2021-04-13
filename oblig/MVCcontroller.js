@@ -10,7 +10,7 @@ function multiplyBy()
         var LVL = parseInt(document.getElementById("LVL").value);
         
         for (let obj of Ninjas) {
-            console.log ( obj)
+           
             if (selectedNinja == obj.NinjaName){ //finner selected ninja og looper igjennom stats
             
             

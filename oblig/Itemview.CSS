@@ -1,3 +1,5 @@
+/* Item view Equip items*/
+
 .grid-container2{
     display: grid;
     position: relative;
@@ -7,4 +9,60 @@
 }
 #Equip {
     width:5vw;
+}
+
+/* Equip item*/
+#Equip {
+}
+/* Equip item*/
+#Equip {
+}
+/* Equip item*/
+#Equip {
+}
+
+.grid-container{
+  display: grid;
+    position: relative;
+}
+
+/*item nr1  tag */
+.ItemTg1{
+  display: grid;
+    position: relative;
+}
+/*item nr1 */
+.item1{
+  display: grid;
+    position: relative;
+}
+/*item nr2  tag */
+.ItemTg2{
+  display: grid;
+    position: relative;
+}
+/*item nr2 */
+.Item2{
+  display: grid;
+    position: relative;
+}
+/*item nr 3 tag */
+.ItemTg3{
+  display: grid;
+    position: relative;
+}
+/*item nr 3*/
+.Item3{
+  display: grid;
+    position: relative;
+}
+/*item nr */
+.ItemTg{
+  display: grid;
+    position: relative;
+}
+/*item nr */
+.ItemEq{
+  display: grid;
+    position: relative;
 }

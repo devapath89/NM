@@ -1,0 +1,110 @@
+.avrdmg{display: grid;
+    background-color: green;
+    border: 2px solid green;
+  position: relative;
+  height:4vh;
+  top: 80.7vh;
+  right:27.7vw;
+  width:50vw;
+  }
+  .D-R{
+    display: grid;
+  position: relative;
+  border:2px solid grey;
+  background-color: grey;
+  top:80.7vh;
+  right:27.7vw;
+  height:4vh;
+  width:50vw;
+  }
+  .avrdmgcritt{
+  background-color: thistle;
+  display: grid;
+  position: relative;
+  top:80.73vh;
+  right:27.7vw;
+  height:4.4vh;
+  }
+  .Dmgran{display: grid;
+    background-color: fuchsia;
+  position: relative;
+  width:48.82VW;
+  top:67.46vh;
+  height:4.4vh;
+  left:22.5vw;
+  }
+  .low-dmg{
+    display: grid;
+  position: relative;
+  background-color: red;
+  top:67.5vh;
+  left:22.46vw;
+  width:25vw;
+  height:4.4vh;
+  }
+  .high-dmg{display: grid;
+  position: relative;
+  background-color: royalblue;
+  top:63.1vh;
+  left:47.456vw;
+  width:23.78vw;
+  height:4.4vh;
+  }
+  .avrcrit-dmg{
+    background-color: skyblue;
+    display: grid;
+  position: relative;
+  top:89.56vh;
+  right:27.7vw;
+  width:48.8vw;
+  height:4.4vh;
+  
+  }
+  .dmg-rng-critt{
+    background-color: salmon;
+    display: grid;
+  position: relative;
+  top:89.6vh;
+  right:78vw;
+  width:99vw;
+  height:4.4vh;
+  }
+  .low-critt{
+    background-color: silver; 
+    display: grid;
+  position: relative;
+  top:85.2vh;
+  right:2.68vw;
+  width:23.9vw;
+  height:4.4vh;
+  }
+  .high-critt{
+    background-color: gold;
+    display: grid;
+  position: relative;
+  top:80.8vh;
+  right:27.7vw;
+  bottom: ;
+  width:25vw;
+  height:4.4vh;
+  }
+  .dropdown {
+    position: fixed;
+    display: inline-block;
+    width:700px;
+    left:10vw;
+    top: 30px;
+  }
+  
+  .dropdown-content {
+    display:block;
+    width: 700px;
+    position:fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    bottom:10vh;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 

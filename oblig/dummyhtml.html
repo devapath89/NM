@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="Itemview.CSS">
     <link rel="stylesheet" href="Stats.css">
     <link rel="stylesheet" href="item.css">
+    <link rel="stylesheet" href="othervari.css">
     <script src="MVC.JS"></script>
     <script src="MVCDIVS.js"></script>
     <script src="MVCcontroller.js"></script>
@@ -24,7 +25,7 @@
     
     <div id="hovedSide"></div>
     <div id="selectResult"></div>
-   <div id="result"></div>
+   <!-- <div id="result"></div> -->
     
 
 
@@ -37,7 +38,7 @@ var selectResult = document.getElementById('selectResult')
 updateViewItem()
 
  MakeDropDown();
-//  selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+  selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
  function MakeDropDown() {
          let html = `<select onchange="selectNinja(this.value)">` ; 
              // console.log("make dropdown kjører")
@@ -51,7 +52,7 @@ updateViewItem()
      }
 function selectNinja(clickedNinja) {
         selectedNinja = clickedNinja;
-        // selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+         selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
         makeDivs();
     }
    

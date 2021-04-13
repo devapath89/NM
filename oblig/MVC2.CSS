@@ -73,32 +73,18 @@ height:1vh;
   border:2px dotted hotpink;
 
  }
-
-
- 
-
-
-
-  .dropdown {
-    position: fixed;
-    display: inline-block;
-    width:700px;
-    left:10vw;
-    top: 30px;
-  }
-  
-  .dropdown-content {
-    display:block;
-    width: 700px;
-    position:fixed;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    bottom:10vh;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  } 
+ .ID{
+  position: relative;
+  display: grid;
+  top:20vh;
+right:10vw;
+}
+.fixed{
+  position: relative;
+  display: grid;
+  top:20vh;
+  right:10vw;
+}
 #result {
   color: white;
     position:fixed;
@@ -111,6 +97,17 @@ height:1vh;
     top:25vh;
     
    
+}
+.position{
+  display:flex;
+flex-wrap: wrap;
+position: relative;
+left:15.33vw;
+bottom:17.6vh;
+background-color: brown;
+width:5.7vw;
+height:8vh;
+
 }
 
 .The-Cost{
@@ -195,20 +192,18 @@ input{
 
 
 .button {
+  display: flex;
+  border:1px solid blue;
+  border-style:dotted solid double dashed;
     position:relative;
-    background-color: rgb(255, 255, 255);
+    background-color:white;
     color: #000000;
-    left:6.4vw;
-    bottom:80vh;
+  left:-70.5vw;
     font-size:16px;
- 
+ bottom:09vh;
   }
 
-#StatIn{
-  position: relative;
-  left: 10vh;
-  color: black;
-}
+
   .bloodline{
     position:relative;
     font-size:2vh;
@@ -216,10 +211,7 @@ input{
     background-color: crimson;
     right:-1.8vw;
      top: 30.6vh;
-    
-    
-
-  }
+    }
   .bloodlinelvl{
     position:relative;
     font-size:2vh;
@@ -247,107 +239,6 @@ input{
      top:25.6vh;
      
   }
-#Effi {
-  height:vh;
-  font-size:2vh; 
-  position: relative;
-  display: grid;
-  bottom:09.9vh;
-  right:-7.85vw;
-  grid-template-rows:auto;
-  grid-template-columns:auto;
-  grid-column:auto;
-  
-}
-.avrdmg{display: grid;
-  background-color: green;
-  border: 2px solid green;
-position: relative;
-height:4vh;
-top: 80.7vh;
-right:27.7vw;
-width:50vw;
-}
-.D-R{
-  display: grid;
-position: relative;
-border:2px solid grey;
-background-color: grey;
-top:80.7vh;
-right:27.7vw;
-height:4vh;
-width:50vw;
-}
-.avrdmgcritt{
-background-color: thistle;
-display: grid;
-position: relative;
-top:80.73vh;
-right:27.7vw;
-height:4.4vh;
-}
-.Dmgran{display: grid;
-  background-color: fuchsia;
-position: relative;
-width:48.82VW;
-top:67.46vh;
-height:4.4vh;
-left:22.5vw;
-}
-.low-dmg{
-  display: grid;
-position: relative;
-background-color: red;
-top:67.5vh;
-left:22.46vw;
-width:25vw;
-height:4.4vh;
-}
-.high-dmg{display: grid;
-position: relative;
-background-color: royalblue;
-top:63.1vh;
-left:47.456vw;
-width:23.78vw;
-height:4.4vh;
-}
-.avrcrit-dmg{
-  background-color: skyblue;
-  display: grid;
-position: relative;
-top:89.56vh;
-right:27.7vw;
-width:48.8vw;
-height:4.4vh;
 
-}
-.dmg-rng-critt{
-  background-color: salmon;
-  display: grid;
-position: relative;
-top:89.6vh;
-right:78vw;
-width:99vw;
-height:4.4vh;
-}
-.low-critt{
-  background-color: silver; 
-  display: grid;
-position: relative;
-top:85.2vh;
-right:2.68vw;
-width:23.9vw;
-height:4.4vh;
-}
-.high-critt{
-  background-color: gold;
-  display: grid;
-position: relative;
-top:80.8vh;
-right:27.7vw;
-bottom: ;
-width:25vw;
-height:4.4vh;
-}
 
   

@@ -1,7 +1,11 @@
 
    
 
-
+#StatIn{
+    position: relative;
+    left: 10vh;
+    color: black;
+  }
 
 .tai {
     border-bottom: 1px solid black; 
@@ -100,7 +104,18 @@
     font-size:2vh;
     border-bottom: 2px solid black;
 }
-.The-Stats{
+
+ #txt {
+    background-color:turquoise;
+    right:-13.1vw;
+    top:37.8vh;
+    height:89vh;
+    justify-content: center;
+    position:relative;
+    display:grid;
+    
+    
+} .The-Stats{
     border:1px solid black;
     display: grid;
     position: relative;
@@ -112,31 +127,14 @@
     width:11.1vw;
     height: 2.3vh;
 }
- #txt {
-    background-color:turquoise;
-    right:-13.1vw;
-    top:37.8vh;
-    height:89vh;
-    justify-content: center;
-    position:relative;
-    display:grid;
-    
-    
-} 
+#StatIn{
+    position: relative;
+    left: 10vh;
+    color: black;
+}
 
 
-
-
-  .Statpoints-Point{
-    background-color: teal;
-    position:relative;
-       border:solid 1px black; 
-      top:14.9vh;
-      left:70.24vw;
-       justify-content: center;
-      height: 2.22vh;
-      font-size:2vh;
-     }
+ 
   .statnames{
     justify-content: center;
     position:relative;
@@ -165,258 +163,164 @@
    justify-items: center;
 }
 
-.ID{
-    position: relative;
-    display: grid;
-    top:20vh;
-right:10vw;
-}
-.fixed{
-    position: relative;
-    display: grid;
-    top:20vh;
-    right:10vw;
-}
 
-
-
-
-
-
-#g3 { display:flex;
-    flex-wrap:wrap;
-    position: relative;
+/* The inputt stats */
+.input-container{
     background-color: teal;
-top:60vh;
-left:6vw;
-
-}
-.position{
-    display:flex;
-  flex-wrap: wrap;
-  position: relative;
-  left:15.33vw;
-  bottom:17.6vh;
-  background-color: brown;
-  width:5.7vw;
-  height:8vh;
-  
-}
-.S01{  
+    position:relative;
+       border:solid 1px black; 
+      top:14.9vh;
+      left:70.24vw;
+       justify-content: center;
+      height: 2.22vh;
+      font-size:2vh;
+     }
+.input-containers {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "s01"
+      "s02"
+      "s03"
+      "s04"
+      "s05"
+      "s06"
+      "s07"
+      "s08"
+      "s09"
+      "s10"
+      "s11"
+      "s12"
+      "s13"
+      "s14"
+      "s15"
+      "s16"
+      "s17"
+      "s18";
+  }
+.input-containersS01{  
     border-bottom: 1px solid black; 
     position:relative;
-    display:flex;
-     flex-wrap:wrap;
-     top:14.9vh;
-     left:70.28vw;
-      justify-content: center;
-     font-size:2vh;
-     background-color: teal;
-     width:8vw;
-  
-    }
-.s02{border-bottom: 1px solid black; 
+   background-color:teal;
+    display:grid;
+  }
+.input-containerss02{border-bottom: 1px solid black; 
     position:relative;
-    display:flex;
-    flex-wrap:wrap;
-    font-size:2vh;
-    background-color: teal;
-     justify-content: center;
-     top:14.9vh;
-     left:70.28vw;
-    
-     }
-.s03{
+  background-color:teal;
+    display:grid;
+   }
+.input-containerss03{
     border-bottom: 1px solid black;
      position:relative;
-    display:flex;
-    font-size:2vh;
-     flex-wrap:wrap;
-     background-color: teal;
-      justify-content: center;
-      top:42.5vh;
-    left:62.26vw;
-    
-      width:8vw;
-    }
-.s04{    border-bottom: 1px solid black;
-    position:relative;
-    font-size:2vh;
-   display:flex;
-    flex-wrap:wrap;
-    background-color: teal;
-     justify-content: center;
-    top:42.5vh;
-     left:62.26vw;
-    
+  background-color:teal;
+     display:grid;
    }
-.s05{    border-bottom: 1px solid black;
+.input-containerss04{    border-bottom: 1px solid black;
     position:relative;
-   display:flex;
-   font-size:2vh;
-    flex-wrap:wrap;
-    background-color: teal;
-     justify-content: center;
-    top:42.5vh;
-     left:62.26vw;
-    
+   background-color:teal;
+    display:grid;
    }
-.s06{border-bottom: 1px solid black;
+.input-containerss05{    border-bottom: 1px solid black;
     position:relative;
-   display:flex;
-   font-size:2vh;
-    flex-wrap:wrap;
-    background-color: teal;
-     justify-content: center;
-    top:42.5vh;
-     left:62.26vw;
+  background-color:teal;
+    display:grid;
+    
+ }
+.input-containerss06{border-bottom: 1px solid black;
+    position:relative;
+  background-color:teal;
+    display:grid;
     
 }
-.s07{border-bottom: 1px solid black;
+.input-containerss07{border-bottom: 1px solid black;
     position:relative;
-   display:flex;
-   font-size:2vh;
-    flex-wrap:wrap;
-    background-color: teal;
-     justify-content: center;
-    top:42.5vh;
-     left:62.26vw;
-    ;}
-.s08{border-bottom: 1px solid black;
+  background-color:teal;
+    display:grid;
+   }
+.input-containerss08{border-bottom: 1px solid black;
     position:relative;
-   display:flex;
-   font-size:2vh;
-    flex-wrap:wrap;;
-    background-color: teal;
-     justify-content: center;
-    top:42.5vh;
-     left:62.26vw;
-    }
-.s09{border-bottom: 1px solid black;
-    position:relative;
-   display:flex;
-    flex-wrap:wrap;
-    font-size:2vh;
-    background-color: teal;
-     justify-content: center;
-    top:42.5vh;
-     left:62.26vw;
-    }
-.s10{border-bottom: 1px solid black;
-    position:relative;
-   display:flex;
-   font-size:2vh;
-    flex-wrap:wrap;
-    background-color: teal;
-     justify-content: center;
-    top:42.5vh;
-     left:62.26vw;
-    }
-.s11{border-bottom: 1px solid black;
-    position:relative;
-   display:flex;
-   font-size:2vh;
-    flex-wrap:wrap;;
-    background-color: teal;
-     justify-content: center;
-    top:42.5vh;
-     left:62.26vw;
-    }
-.s12{border-bottom: 1px solid black;
-    position:relative;
-   display:flex;
-   font-size:2vh;
-    flex-wrap:wrap;
-    background-color: teal;
-     justify-content: center;
-    top:42.5vh;
-     left:62.26vw;
-    }
-.s13{border-bottom: 1px solid black;
-    position:relative;
-   display:flex;
-   font-size:2vh;
-    flex-wrap:wrap;
-    background-color: teal;
-     justify-content: center;
-    top:42.5vh;
-     left:62.26vw;
-    ;}
-.s14{border-bottom: 1px solid black;
-    position:relative;
-   display:flex;
-   font-size:2vh;
-    flex-wrap:wrap;;
-    background-color: teal;
-     justify-content: center;
-    top:42.5vh;
-     left:62.26vw;
-    ;}
-     
-.s15{border-bottom: 1px solid black;
-    position:relative;
-   display:flex;
-   font-size:2vh;
-    flex-wrap:wrap;
-    background-color: teal;
-   justify-content: center;
-   top:71.1vh;
-   left:54.26vw;
+   
+    display:grid;
   }
-    
-.s16{ border-bottom: 1px solid black;
+.input-containerss09{border-bottom: 1px solid black;
     position:relative;
    display:flex;
-   font-size:2vh;
-    flex-wrap:wrap;
-    background-color: teal;
-     justify-content: center;
-     top:71.1vh;
-     left:54.28vw;
-    
-    width:8vw;
+ 
+   display:grid;
+  }
+.input-containerss10{border-bottom: 1px solid black;
+    position:relative;
+   
+   display:grid; display:flex;
+ 
+  }
+.input-containerss11{border-bottom: 1px solid black;
+    position:relative;
+  
+    display:grid;
 }
-.s17{border-bottom: 1px solid black;
+.input-containerss12{border-bottom: 1px solid black;
     position:relative;
-   display:flex;
-    flex-wrap:wrap;
-    font-size: 2vh;
-    background-color: teal;
-     justify-content: center;
-     top:71.1vh;
-     left:54.26vw;
-    
-    width:8vw;
+    display:grid;
+}
+.input-containerss13{border-bottom: 1px solid black;
+    position:relative;
+  
+    display:grid;
+    ;}
+.input-containerss14{border-bottom: 1px solid black;
+    position:relative;
+  
+    display:grid;
+   }
+ 
+.input-containerss15{border-bottom: 1px solid black;
+    position:relative;
+   
+    display:grid;
+} 
+.input-containerss16{ border-bottom: 1px solid black;
+    position:relative;
+ 
+    display:grid;
+}
+.input-containerss17{border-bottom: 1px solid black;
+    position:relative;
+  
+    display:grid;
+   }
+.input-containerss18{border-bottom: 1px solid black;
+    position:relative;
+  
+    display:grid;
     }
-.s18{border-bottom: 1px solid black;
+.input-containerss19{border-bottom: 1px solid black;
     position:relative;
-   display:flex;
-   font-size:2vh;
-    flex-wrap:wrap;
-     background-color: teal; 
-     justify-content: center;
-     top:71.1vh;
-     left:54.26vw;
-    
-    width:8vw;
-    }
-.s19{border-bottom: 1px solid black;
+    display:grid;
+   }
+.input-containerss20{border-bottom: 1px solid black;
     position:relative;
-   display:flex;
-    flex-wrap:wrap;
-    background-color: teal;
-     justify-content: center;
-    top:42.5vh;
-     left:53.3vw;}
-.s20{border-bottom: 1px solid black;
-    position:relative;
-   display:flex;
-    flex-wrap:wrap;
-    background-color: teal;
-     justify-content: center;
-     top:42.6vh;
-     left:53.3vw;} 
+    display:grid;
+   } 
 
+
+
+
+/*Efficantcy trait*/
+#Effi {
+    height:vh;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    bottom:09.9vh;
+    right:-7.85vw;
+    grid-template-rows:auto;
+    grid-template-columns:auto;
+    grid-column:auto;
+    
+  }
 .Efficantcy{
     border: 2px solid black;
     font-size:2vh; 

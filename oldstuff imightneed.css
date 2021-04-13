@@ -1,0 +1,11 @@
+
+
+
+#g3 { display:flex;
+    flex-wrap:wrap;
+    position: relative;
+    background-color: teal;
+top:60vh;
+left:6vw;
+
+}
