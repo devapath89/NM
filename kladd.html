@@ -123,90 +123,49 @@ currentGrowth =growth;
 
 
 
-html +=`<a href="#" class="LM">&laquo; forige måned</a> `
-html += `<div class="datDate"><b>Dat time of the Year</b></div>`;
-html +=`<a href="#" class="NM">Neste måned &raquo;</a>`
+
+
+//penalty / off poss//
+// comented out due to no spot yet//
+// html += `<div class="Penalty-containers">`
+// html +=`<div class=is-off">is off pos</div>`
+// html +=`<div class=Y-N">Yes or No</div>`
+// html +=`<div class=offpos">Offpos</div>`
+// html +=`<div class=Pen"></div>`
+// html +=`<div class=penalty"> pen %</div>`
+// html +=`<div class=penalty"> pen %</div>`
+// html += `</div>`
+//penalty / off end //
 
 
 
+for(stat in model.DemStats){
+    //get key
+    //     currentStat = stat; // - ta vare på "current stat" fra løkka
+    //     html += `<div>${currentStat}: ${option.Stats[stat]}</div>`;
+    // }                   //  name       stat value
+    // let currentGrowth = "";
+    currentStat = stat;
 
+    html += `<div class="StatNames">${stat} </div>`;
 
-//     html += `<tr><td class="regdata02">${Object.values(hoursJanuary.dField1)}</td> <td class="regdata02"></td></tr>`;
-//     html += `<tr><td class="regdata03">{Object.values(hoursJanuary.dField2)}</td> <td class="regdata03"></td></tr>`;
-//     html += `<tr><td class="regdata04">${Object.values(hoursJanuary.dField3)}</td> <td class="regdata04"></td></tr>`;
-//     html += `<tr><td class="regdata05">${Object.values(hoursJanuary.dField4)}</td> <td class="regdata05"></td></tr>`;
-//     html += `<tr><td class="regdata06">${Object.values(hoursJanuary.dField5)}</td> <td class="regdata06"></td></tr>`;
-//     html += `<tr><td class="regdata07">${Object.values(hoursJanuary.dField6)}</td> <td class="regdata07"></td></tr>`;
-//     html += `<tr><td class="regdata08">${Object.values(hoursJanuary.dField7)}</td> <td class="regdata08"></td></tr>`;
-//     html += `<tr><td class="regdata09">${Object.values(hoursJanuary.dField8)}</td> <td class="regdata09"></td></tr>`;
-//     html += `<tr><td class="regdata10">${Object.values(hoursJanuary.dField9)}</td> <td class="regdata10"></td></tr>`;
-//     html += `<tr><td class="regdata11">${Object.values(hoursJanuary.dField10)}</td> <td class="regdata011></td></tr>`;
-//     html += `<tr><td class="regdata12">${Object.values(hoursJanuary.dField11)}</td> <td class="regdata12"></td></tr>`;
-//     html += `<tr><td class="regdata13">${Object.values(hoursJanuary.dField12)}</td> <td class="regdata13"></td></tr>`;
-//     html += `<tr><td class="regdata14">${Object.values(hoursJanuary.dField13)}</td> <td class="regdata14"></td></tr>`;
-//     html += `<tr><td class="regdata15">${Object.values(hoursJanuary.dField14)}</td> <td class="regdata15"></td></tr>`;
-//     html += `<tr><td class="regdata16">${Object.values(hoursJanuary.dField15)}</td> <td class="regdata16"></td></tr>`;
-//     html += `<tr><td class="regdata17">${Object.values(hoursJanuary.dField16)}</td> <td class="regdata17"></td></tr>`;
-//     html += `<tr><td class="regdata18">${Object.values(hoursJanuary.dField17)}</td> <td class="regdata18"></td></tr>`;
-//     html += `<tr><td class="regdata19">${Object.values(hoursJanuary.dField18)}</td> <td class="regdata19"></td></tr>`;
-//     html += `<tr><td class="regdata20">${Object.values(hoursJanuary.dField19)}</td> <td class="regdata20"></td></tr>`;
-//     html += `<tr><td class="regdata21">${Object.values(hoursJanuary.dField20)}</td> <td class="regdata21"></td></tr>`;
-//     html += `<tr><td class="regdata22">${Object.values(hoursJanuary.dField21)}</td> <td class="regdata22"></td></tr>`;
-//     html += `<tr><td class="regdata23">${Object.values(hoursJanuary.dField22)}</td> <td class="regdata23"></td></tr>`;
-//     html += `<tr><td class="regdata24">${Object.values(hoursJanuary.dField23)}</td> <td class="regdata24"></td></tr>`;
-//     html += `<tr><td class="regdata25">${Object.values(hoursJanuary.dField24)}</td> <td class="regdata25"></td></tr>`;
-//     html += `<tr><td class="regdata26">${Object.values(hoursJanuary.dField25)}</td> <td class="regdata26"></td></tr>`;
-//     html += `<tr><td class="regdata27">${Object.values(hoursJanuary.dField26)}</td> <td class="regdata27"></td></tr>`;
-//     html += `<tr><td class="regdata28">${Object.values(hoursJanuary.dField27)}</td> <td class="regdata28"></td></tr>`;
-//     html += `<tr><td class="regdata29">${Object.values(hoursJanuary.dField28)}</td> <td class="regdata29"></td></tr>`;
-//     html += `<tr><td class="regdata30">${Object.values(hoursJanuary.dField29)}</td> <td class="regdata30"></td></tr>`;
-//     html += `<tr><td class="regdata31">${Object.values(hoursJanuary.dField30)}</td> <td class="regdata31"></td></tr>`;
-//     html += `<tr><td class="regdata31">${Object.values(hoursJanuary.dField31)}</td> <td class="regdata31"></td></tr>`;
+     }
 
 
 
+       
+//the DMG output//
 
+html += `<div class="Dmgout-containers">` 
+html += `<div Class=avrdmg>Avrage dmg :in</div>`
+html += `<div Class=D-R>Damage range :in</div>`
+html += `<div Class=avrdmgcritt>Avrage dmg on critt :in</div>`
+html += `<div Class=Dmgran>Dmg range :in</div>`
+html += `<div Class=low-dmg>low dmg in</div>`
+html += `<div Class=high-dmg>high dmg in</div>`
+html += `<div Class=avrcrit-dmg>avrage critt in</div>`
+html += `<div Class=dmg-rng-critt> dmg range critt in</div>`
+html += `<div Class=low-critt>low critt in</div>`
+html += `<div Class=high-critt>high critt inn</div>`
+html += `</div>`; //end off dmg out //
 
-
-        } ],
-        Items: {
-            {  
-                item : "Scroll of Sutra",
-            Sta: 15,
-            Buki: 40,
-            FocusBurst:  20,
-            FokusRange: 30,
-            WindDamage: 25,
-            BukijutsuBoost: -10, 
-            file:'https://github.com/devapath89/NM/blob/main/oblig/Img/Scroll%20of%20sutra.png?raw=true'
-           
-           }
-             
-             
-             { item: "Dracolich's Phylactery"
-             Nin: 30,
-             Gen: 70,
-             Ele: 40,
-             GenjutsuActivation: 30,
-             Death: 20,
-              BloodlineExp: 1,
-              file: 'https://github.com/devapath89/NM/blob/main/oblig/Img/DracolichsPhylatery.png?raw=true'
-          }
-          { 
-              item:"Abaddon's Armory",
-              Buki: 30,
-              Gen: 40,
-              BukijutsuRecovery: 15,
-              GenjutsuMastery:10 ,
-              file:'https://github.com/devapath89/NM/blob/main/oblig/Img/Abaddons.jpg?raw=true'
-          }
-          {
-              item: "Arachne's Arbalest",
-              Buki : 55,
-              BukijutsuBoost: 5,
-              CriticalChance: 10,
-              file: 'https://github.com/devapath89/NM/blob/main/oblig/Img/Archnesarbalest.png?raw=true'}
-          }
-        
-        
-]

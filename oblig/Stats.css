@@ -1,11 +1,47 @@
 
-   
+  
+/*all stat related things are in this grid container*/
+.Stat-container {
+    display: grid;
+}
+/*all stat container*/
 
-#StatIn{
+/*all primary stats*/
+.Primestat-containers{
+    display: grid;
     position: relative;
-    left: 10vh;
-    color: black;
-  }
+}
+.The-Stats{
+    border:1px solid black;
+    display: grid;
+    position: relative;
+    justify-content: center;
+    background-color: blue;
+}
+    .statnames{
+        justify-content: center;
+        position:relative;
+        display:grid;
+        grid-template-columns:2vw;
+        grid-column:auto;
+          border-bottom:1px solid black;
+        background-color: rgb(77, 15, 15);
+       
+        justify-items: center;
+        
+        
+         }
+    #Secondary {
+        position: relative;
+        background-color: rgb(77, 15, 15);
+        grid-template-columns:2vw;
+       grid-column:auto;
+       
+       font-size:2vh; 
+       justify-items: center;
+    } 
+
+
 
 .tai {
     border-bottom: 1px solid black; 
@@ -107,61 +143,10 @@
 
  #txt {
     background-color:turquoise;
-    right:-13.1vw;
-    top:37.8vh;
-    height:89vh;
+    
     justify-content: center;
     position:relative;
-    display:grid;
-    
-    
-} .The-Stats{
-    border:1px solid black;
-    display: grid;
-    position: relative;
-    justify-content: center;
-    background-color: blue;
-    top:35.5vh;
-    left:24.23vw;
-    font-size:2vh;
-    width:11.1vw;
-    height: 2.3vh;
-}
-#StatIn{
-    position: relative;
-    left: 10vh;
-    color: black;
-}
-
-
- 
-  .statnames{
-    justify-content: center;
-    position:relative;
-    display:grid;
-    grid-template-columns:2vw;
-    grid-column:auto;
-      border-bottom:1px solid black;
-    background-color: rgb(77, 15, 15);
-    right:-13.07vW;
-    top:27.8vh;
-    font-size:2vh; 
-    width:3vw;
-    justify-items: center;
-    
-    
-     }
-#Secondary {
-    position: relative;
-    background-color: rgb(77, 15, 15);
-    grid-template-columns:2vw;
-   grid-column:auto;
-    top:52.1vh;
-   right:-5.7vw;
-   width:3vw;
-   font-size:2vh; 
-   justify-items: center;
-}
+    display:grid;}
 
 
 /* The inputt stats */
@@ -169,138 +154,121 @@
     background-color: teal;
     position:relative;
        border:solid 1px black; 
-      top:14.9vh;
-      left:70.24vw;
-       justify-content: center;
-      height: 2.22vh;
-      font-size:2vh;
+     justify-content: center;
+    
      }
+     #inn{
+        display: grid;
+        position: relative;
+        }
 .input-containers {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
-    grid-template-areas:
-      "s01"
-      "s02"
-      "s03"
-      "s04"
-      "s05"
-      "s06"
-      "s07"
-      "s08"
-      "s09"
-      "s10"
-      "s11"
-      "s12"
-      "s13"
-      "s14"
-      "s15"
-      "s16"
-      "s17"
-      "s18";
-  }
-.input-containersS01{  
+   }
+.s01{  
     border-bottom: 1px solid black; 
     position:relative;
    background-color:teal;
     display:grid;
   }
-.input-containerss02{border-bottom: 1px solid black; 
+.s02{border-bottom: 1px solid black; 
     position:relative;
   background-color:teal;
     display:grid;
+   
    }
-.input-containerss03{
+.s03{
     border-bottom: 1px solid black;
      position:relative;
   background-color:teal;
      display:grid;
    }
-.input-containerss04{    border-bottom: 1px solid black;
+.s04{    border-bottom: 1px solid black;
     position:relative;
    background-color:teal;
     display:grid;
    }
-.input-containerss05{    border-bottom: 1px solid black;
+.s05{    border-bottom: 1px solid black;
     position:relative;
   background-color:teal;
     display:grid;
     
  }
-.input-containerss06{border-bottom: 1px solid black;
+.s06{border-bottom: 1px solid black;
     position:relative;
   background-color:teal;
     display:grid;
     
 }
-.input-containerss07{border-bottom: 1px solid black;
+.s07{border-bottom: 1px solid black;
     position:relative;
   background-color:teal;
     display:grid;
    }
-.input-containerss08{border-bottom: 1px solid black;
+.s08{border-bottom: 1px solid black;
     position:relative;
-   
+    background-color:teal;
     display:grid;
   }
-.input-containerss09{border-bottom: 1px solid black;
+.s09{border-bottom: 1px solid black;
     position:relative;
-   display:flex;
- 
-   display:grid;
+    background-color:teal;
+    display:grid;
   }
-.input-containerss10{border-bottom: 1px solid black;
+.s10{border-bottom: 1px solid black;
     position:relative;
-   
-   display:grid; display:flex;
+    display:grid;
+    background-color:teal;
  
   }
-.input-containerss11{border-bottom: 1px solid black;
+.s11{border-bottom: 1px solid black;
     position:relative;
-  
+    background-color:teal;
     display:grid;
 }
-.input-containerss12{border-bottom: 1px solid black;
+.s12{border-bottom: 1px solid black;
     position:relative;
     display:grid;
-}
-.input-containerss13{border-bottom: 1px solid black;
+    background-color:teal;
+}   
+.s13{border-bottom: 1px solid black;
     position:relative;
-  
     display:grid;
+    background-color:teal;
     ;}
-.input-containerss14{border-bottom: 1px solid black;
+.s14{border-bottom: 1px solid black;
     position:relative;
-  
+    background-color:teal;
     display:grid;
    }
  
-.input-containerss15{border-bottom: 1px solid black;
+.s15{border-bottom: 1px solid black;
     position:relative;
-   
+    background-color:teal;
     display:grid;
 } 
-.input-containerss16{ border-bottom: 1px solid black;
+.s16{ border-bottom: 1px solid black;
     position:relative;
- 
+    background-color:teal;
     display:grid;
 }
-.input-containerss17{border-bottom: 1px solid black;
+.s17{border-bottom: 1px solid black;
     position:relative;
-  
+    background-color:teal;
     display:grid;
    }
-.input-containerss18{border-bottom: 1px solid black;
+.s18{border-bottom: 1px solid black;
     position:relative;
-  
+    background-color:teal;
     display:grid;
     }
-.input-containerss19{border-bottom: 1px solid black;
+.s19{border-bottom: 1px solid black;
     position:relative;
     display:grid;
    }
-.input-containerss20{border-bottom: 1px solid black;
+.s20{border-bottom: 1px solid black;
     position:relative;
     display:grid;
    } 
@@ -308,228 +276,3 @@
 
 
 
-/*Efficantcy trait*/
-#Effi {
-    height:vh;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-    bottom:09.9vh;
-    right:-7.85vw;
-    grid-template-rows:auto;
-    grid-template-columns:auto;
-    grid-column:auto;
-    
-  }
-.Efficantcy{
-    border: 2px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-    top:45.4vh;
-    right:11.05vw;
-    text-align: center;
-    background-color: yellowgreen;
-    height:2vh;
-    
-}
-.tai-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-    top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.nin-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-    top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.buki-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.Stam-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.ele-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.gen-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.atk-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.strike-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.hit-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.reroll-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.boost-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.buki-rec-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.gen-act-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.gen-mastery-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.gen-rec-effi{
-    border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-.focus-effi{
-      border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-
-.focus-burst{
-      border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}
-
-.focus-range{
-      border-left:2px solid black;
-    border-bottom: 1px solid black;
-    font-size:2vh; 
-    position: relative;
-    display: grid;
-     top:45.28vh;
-    right:11.07vw;
-    text-align: center;
-    background-color: yellowgreen;
-}

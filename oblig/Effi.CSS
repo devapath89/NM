@@ -1,0 +1,183 @@
+/*Efficantcy trait*/
+#Effi {
+   font-size:2vh; 
+    position: relative;
+    display: grid;
+    grid-template-rows:auto;
+    grid-template-columns:auto;
+    grid-column:auto;
+     }
+.Efficantcy{
+    border: 2px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+    height:2vh;
+    
+}
+.tai-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.nin-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.buki-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.Stam-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.ele-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.gen-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.atk-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.strike-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.hit-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.reroll-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.boost-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.buki-rec-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.gen-act-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.gen-mastery-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.gen-rec-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.focus-effi{
+      border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+.focus-burst{
+      border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+.focus-range{
+      border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    text-align: center;
+    background-color: yellowgreen;
+}

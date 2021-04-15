@@ -1,110 +1,172 @@
-.avrdmg{display: grid;
-    background-color: green;
-    border: 2px solid green;
-  position: relative;
-  height:4vh;
-  top: 80.7vh;
-  right:27.7vw;
-  width:50vw;
-  }
-  .D-R{
-    display: grid;
-  position: relative;
-  border:2px solid grey;
-  background-color: grey;
-  top:80.7vh;
-  right:27.7vw;
-  height:4vh;
-  width:50vw;
-  }
-  .avrdmgcritt{
-  background-color: thistle;
+/* the info box about ninja cost etc */
+.Ninjainfo1-containers{ /*bot touched*/
+  display: grid;
+  display:relative;
+}
+/* the ninja img*/
+.ninjaImg{
+  display: grid;
+  position:relative;
+  bottom:4vh;
+  left:1vh;
+}
+/*end off ninja img*/
+
+/* chakra realated */
+.Cost {
+  background-color: burlywood;
   display: grid;
   position: relative;
-  top:80.73vh;
-  right:27.7vw;
-  height:4.4vh;
-  }
-  .Dmgran{display: grid;
-    background-color: fuchsia;
+ }
+.chakra
+{ display: grid;
   position: relative;
-  width:48.82VW;
-  top:67.46vh;
-  height:4.4vh;
-  left:22.5vw;
+background-color: aqua;
+justify-content: center;
+}
+
+.position{
+  display: grid;
+position: relative;
+background-color: brown;
+bottom:35vh;
+justify-content: center;
+left:90vw;
+height:10vh;
+width:10vw;
+font-size:4vh;
+}
+/*End off chakra related*/
+
+
+/*cost reduction*/
+.quarter1{ /*txt box*/
+  position: relative;
+   display: grid;
+   flex-wrap:wrap;
+ border:1px solid black;
+   font-size:2vh;
+ }
+ .NY{
+  position: relative;  /*for quarter 1 Forbidden */
+  display: grid;
+  flex-wrap:wrap;
+  justify-content: center;
+  font-size:2vh;
+  background-color: hotpink;
+  border:2px dotted white;
+}
+
+.quarter2{/*txt box*/
+  position: relative;
+  display: grid;
+  flex-wrap:wrap;
+  font-size:2vh;
+  border:1px solid black;
+}
+ .YN{ /*for quarter 2 Fixed chakra  */
+  position: relative;
+  display: grid;
+  flex-wrap:wrap;
+  justify-content: center;
+  font-size:2vh;
+  background-color: hotpink;
+  border:2px dotted white;
+
+ }
+ /*end off cost reduction*/
+
+ .ID{ /*ID off ninja gives the entire name */
+  position: relative;
+  display: grid;
+bottom:41vh;
+left:9.4vw;
+justify-content: center;
+background-color: blueviolet;
+}
+/*end of ID*/
+
+.Seal /*the seal lvl*/ {
+  display: flex;
+  position: relative;
+}
+/*Ninja name*/
+.NinjaName { 
+  display: flex;
+  position: relative;
+  bottom:41vh;
+left:9.4vw;
+justify-content: center;
+background-color: blueviolet;
+}
+/*end off ninja spefic*/
+
+/* LVL related*/
+/* input put lvl*/
+
+#LVL{
+  display: grid;
+  position:relative;
+  border-radius:12px;
+  background-color: blueviolet;
+  left:10vw;
+  bottom:20vh;
+}
+.button /* the lvl confim button*/ {
+  display: grid;
+  border:1px solid blue;
+  border-style:dotted solid double dashed;
+    position:relative;
+    background-color:white;
+  color: #000000;
+  left:11vw;
+  bottom:20vh;
   }
-  .low-dmg{
+
+  #result { /*the thing that gets all the stat growth + stat value for lvling*/
+    color: white;
     display: grid;
+      position:relative;
+      background-color: purple;
+      left:40vw;
+      height:30vh;
+      }
+.lvl{
+  /*the Lvl tag*/
+  display: flex;
   position: relative;
-  background-color: red;
-  top:67.5vh;
-  left:22.46vw;
-  width:25vw;
-  height:4.4vh;
-  }
-  .high-dmg{display: grid;
-  position: relative;
-  background-color: royalblue;
-  top:63.1vh;
-  left:47.456vw;
-  width:23.78vw;
-  height:4.4vh;
-  }
-  .avrcrit-dmg{
-    background-color: skyblue;
+}
+/*end off lvl tag */
+
+
+/* blood line contaier */
+.BL-containers{ /*not touched */
+  display:grid;
+  grid-row: 1fr 1fr;
+  grid-column: 1fr 1fr;
+}
+  .bloodline{
     display: grid;
-  position: relative;
-  top:89.56vh;
-  right:27.7vw;
-  width:48.8vw;
-  height:4.4vh;
-  
-  }
-  .dmg-rng-critt{
-    background-color: salmon;
+    font-size:2vh;
+   border-top: 2px solid black;
+    background-color: crimson;}
+  .bloodlinelvl{
     display: grid;
-  position: relative;
-  top:89.6vh;
-  right:78vw;
-  width:99vw;
-  height:4.4vh;
+    font-size:2vh;
+    border-bottom: 2px solid black;
+     background-color: crimson;
+     
+     
   }
-  .low-critt{
-    background-color: silver; 
+  .Blood-line{
     display: grid;
-  position: relative;
-  top:85.2vh;
-  right:2.68vw;
-  width:23.9vw;
-  height:4.4vh;
-  }
-  .high-critt{
-    background-color: gold;
+    font-size:2vh;
+    border: 1px solid black;
+     background-color: crimson;}
+  .Blood-Line-LvL{
     display: grid;
-  position: relative;
-  top:80.8vh;
-  right:27.7vw;
-  bottom: ;
-  width:25vw;
-  height:4.4vh;
-  }
-  .dropdown {
-    position: fixed;
-    display: inline-block;
-    width:700px;
-    left:10vw;
-    top: 30px;
-  }
-  
-  .dropdown-content {
-    display:block;
-    width: 700px;
-    position:fixed;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    bottom:10vh;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  } 
+    font-size:2vh;
+    border:1px solid black;
+     background-color: crimson;}
+
+/* end off BL related */

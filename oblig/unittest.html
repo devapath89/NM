@@ -18,28 +18,36 @@
     <script src="Equipment.js"></script>
     <script src="Itemview.js"></script>
     
-    <script src="oblig\MVC.JS"></script>
-
+    <script src="MVC.JS"></script>
+<!-- //LVLvalue// -->
     <script>
-        let selectedNinja = "";
+        let selectedNinja2 = "";
         function makeDivs() {};
-        QUnit.test('selectedninja', function(assert) {
-        selectNinja('Madara');
-      const actual = selectedNinja;
+
+    QUnit.test('selectedninja', function(assert) {
+      selectNinja('Madara');
+      const actual = selectedNinja2;
       const expected ='Madara';
       assert.equal(actual, expected);
-
-      
     });
-    multiplyBy();
-    QUnit.test('LVlup!', function(assert) {
-        
-      const actual = selectedNinja;
-      const expected = [NinjaName];
+    
+    QUnit.test('selectedninja2', function(assert) {
+      
+      const actual = selectNinja('');
+      const expected ='error #404';
       assert.equal(actual, expected);
-      
-      
     });
+    QUnit.test('LVlup!', function(assert) {
+      const actual = multiply('hei på deg din banan'); // denne blir undefined - trenger å sende et tall 
+      const expected ='Iam NaN';
+      assert.equal(actual, expected);
+    });
+    QUnit.test('LVlup!', function(assert) {
+      const actual = multiplyBy(5); // denne blir undefined - trenger å sende et tall 
+      const expected = 10;
+      assert.equal(actual, expected);
+    });
+  
     </script>
 </body>
 

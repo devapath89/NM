@@ -1,24 +1,20 @@
-
-
-
-
-
-
+const model = {
+    DemStats:[]
+}
+let LVL = "";
 //lvling "system"
-function multiplyBy()
-{    document.getElementById("result").innerHTML = ""
-        var LVL = parseInt(document.getElementById("LVL").value);
+function multiplyBy(){
+  {   document.getElementById("result").innerHTML = ""
+         var LVL = parseInt(document.getElementById("LVL").value);
         
-        for (let obj of Ninjas) {
+         for (let obj of Ninjas) {
            
             if (selectedNinja == obj.NinjaName){ //finner selected ninja og looper igjennom stats
             
-            
-               
-                for(let singleStat in obj.Stats ){
+             for(let singleStat in obj.Stats ){
     
-                    for(let growth in obj.Growth  ){
-                           if(singleStat == growth){    
+                for(let growth in obj.Growth  ){
+                    if(singleStat == growth){    
                             // console.log("Match! Yas!", growth)
 
        
@@ -29,24 +25,23 @@ function multiplyBy()
     
                             //console.log(isNaN(statValue) , "<- isNAN check  typeof: " , typeof(statValue)  )
                             document.getElementById("result").innerHTML += `<li>:${(growthValue * LVL) + statValue -growthValue}</li>`;
-                            // console.log (result,growth)
+                            model.DemStats.push ((growthValue * LVL) + statValue -growthValue)
+                            
+                            
+                            //return growthValue * LVLvalue
+                           
                            }
                     }
-            }
-    
-            
-           // document.getElementById("result").innerHTML += `<li>${(growth * Lvl) + stat}</li>`;
+                    console.log (model.DemStats,'hei')
+            }    // document.getElementById("result").innerHTML += `<li>${(growth * Lvl) + stat}</li>`;
     
             
       
         } 
-     }
     }
-   
-    function selectNinja(clickedNinja) {
-        selectedNinja = clickedNinja;
-        //selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
-        makeDivs();
-    }
-   
+}
+}
+
+
+    
     
