@@ -1,13 +1,13 @@
 /* the info box about ninja cost etc */
+
 .Ninjainfo1-containers{ /*bot touched*/
-  display: grid;
-  display:relative;
+ display:grid;
 }
 /* the ninja img*/
 .ninjaImg{
   display: grid;
   position:relative;
-  bottom:4vh;
+  bottom:vh;
   left:1vh;
 }
 /*end off ninja img*/
@@ -129,7 +129,8 @@ background-color: blueviolet;
       position:relative;
       background-color: purple;
       left:40vw;
-      height:30vh;
+      height:20vh;
+      width:10vw;
       }
 .lvl{
   /*the Lvl tag*/
@@ -140,12 +141,12 @@ background-color: blueviolet;
 
 
 /* blood line contaier */
-.BL-containers{ /*not touched */
-  display:grid;
-  grid-row: 1fr 1fr;
-  grid-column: 1fr 1fr;
-}
-  .bloodline{
+
+  .BL{display: grid;
+    font-size:2vh;
+   border-top: 2px solid black;
+    background-color: crimson;} 
+.bloodline{
     display: grid;
     font-size:2vh;
    border-top: 2px solid black;

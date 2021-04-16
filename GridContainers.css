@@ -1,0 +1,307 @@
+.Ninjasheet1-containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+  }
+  .Ninjainfo1-containers { grid-area: 1 / 1 / 8 / 5; }
+  .ninjaImg { grid-area: 1 / 1 / 2 / 2; }
+  .hei { grid-area: 1 / 2 / 2 / 3; }
+  .Cost { grid-area: 2 / 1 / 3 / 2; }
+  .Chakra { grid-area: 3 / 1 / 4 / 2; }
+  .position { grid-area: 1 / 4 / 2 / 5; }
+  .ID { grid-area: 1 / 3 / 2 / 4; }
+  .NinjaName { grid-area: 2 / 2 / 3 / 3; }
+  .LVLbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      " button  button  button"
+      "LVL LVL LVL";
+    grid-area: 2 / 3 / 3 / 4;
+  }
+  .button { grid-area: button; }
+  #LVL { grid-area: LVL; }
+  .Item-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.9fr 1.1fr 1fr;
+    gap: 0px 0px;
+    grid-area: 3 / 2 / 5 / 3;
+  }
+  .ItemTg { grid-area: 1 / 1 / 4 / 2; }
+  .ItemEq { grid-area: 1 / 2 / 4 / 3; }
+  .item1 { grid-area: 1 / 2 / 2 / 3; }
+  .Item2 { grid-area: 2 / 2 / 3 / 3; }
+  .item3 { grid-area: 3 / 2 / 4 / 3; }
+  .ItemTg2 { grid-area: 2 / 1 / 3 / 2; }
+  .ItemTg3 { grid-area: 3 / 1 / 4 / 2; }
+  .BL-containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-area: 3 / 3 / 5 / 4;
+  }
+  .BL { grid-area: 1 / 2 / 3 / 3; }
+  .Bloodline { grid-area: 1 / 1 / 3 / 2; }
+  .bloodline { grid-area: 1 / 1 / 2 / 2; }
+  .bloodlinelvl { grid-area: 2 / 1 / 3 / 2; }
+  .Blood-line { grid-area: 1 / 2 / 2 / 3; }
+  .Blood-Line-LVL { grid-area: 2 / 2 / 3 / 3; }
+  .Fixed1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "quarter1"
+      "NY";
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .quarter1 { grid-area: quarter1; }
+  .NY { grid-area: NY; }
+  .Fixed2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "quarter2"
+      "YN";
+    grid-area: 5 / 1 / 6 / 2;
+  }
+  .quarter2 { grid-area: quarter2; }
+  .YN { grid-area: YN; }
+  .Seals { grid-area: 5 / 2 / 6 / 4; }
+  .SealTag { grid-area: 5 / 2 / 6 / 3; }
+  .seal { grid-area: 5 / 3 / 6 / 4; }
+  .Penalty-containers { grid-area: 2 / 4 / 6 / 5; }
+  .is-off {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "."
+      "Y-N";
+    grid-area: 2 / 4 / 3 / 5;
+  }
+  .Y-N { grid-area: Y-N; }
+  .offpos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "."
+      "Pen";
+    grid-area: 3 / 4 / 4 / 5;
+  }
+  .Pen { grid-area: Pen; }
+  .penalty { grid-area: 4 / 4 / 6 / 5; }
+ 
+  .Dmgout-containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . . ."
+      ". . . ."
+      ". . . .";
+    grid-area: 14 / 1 / 16 / 5;}
+
+    .Stat-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "input-container The-Stats The-Stats ."
+        "input-containers txt Primestat-containers Effi-container"
+        "input-containers txt Primestat-containers Effi-container";
+    }
+    .txt {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "Tai"
+        "Nin"
+        "Buki"
+        "Sta"
+        "Ele"
+        "Gen"
+        "atk"
+        "Strike"
+        "Hit"
+        "Roll"
+        "Focus"
+        "Burst"
+        "Range"
+        "Boost"
+        "Rec"
+        "Act"
+        "Mastery"
+        "Rech"
+        "Endu"
+        ".";
+      grid-area: txt;
+    }
+    .Tai { grid-area: Tai; }
+    .Nin { grid-area: Nin; }
+    .Buki { grid-area: Buki; }
+    .Sta { grid-area: Sta; }
+    .Ele { grid-area: Ele; }
+    .Gen { grid-area: Gen; }
+    .atk { grid-area: atk; }
+    .Strike { grid-area: Strike; }
+    .Hit { grid-area: Hit; }
+    .Roll { grid-area: Roll; }
+    .Focus { grid-area: Focus; }
+    .Burst { grid-area: Burst; }
+    .Range { grid-area: Range; }
+    .Boost { grid-area: Boost; }
+    .Rec { grid-area: Rec; }
+    .Act { grid-area: Act; }
+    .Mastery { grid-area: Mastery; }
+    .Rech { grid-area: Rech; }
+    .Endu { grid-area: Endu; }
+    .The-Stats { grid-area: The-Stats; }
+    .Primestat-containers {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "."
+        "Secondary-containers";
+      grid-area: Primestat-containers;
+    }
+    .Secondary-containers {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "Atk"
+        "strike"
+        "hit"
+        "roll"
+        "focus"
+        "burst"
+        "range"
+        "boost"
+        "rec"
+        "act"
+        "-mastery"
+        "rech"
+        ".";
+      grid-area: Secondary-containers;
+    }
+    .Atk { grid-area: Atk; }
+    .strike { grid-area: strike; }
+    .hit { grid-area: hit; }
+    .roll { grid-area: roll; }
+    .focus { grid-area: focus; }
+    .burst { grid-area: burst; }
+    .range { grid-area: range; }
+    .boost { grid-area: boost; }
+    .rec { grid-area: rec; }
+    .act { grid-area: act; }
+    .-mastery { grid-area: -mastery; }
+    .rech { grid-area: rech; }
+    .input-container { grid-area: input-container; }
+    .input-containers {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "s01"
+        "s02"
+        "s03"
+        "s04"
+        "s05"
+        "s06"
+        "s07"
+        "s08"
+        "s09"
+        "s10"
+        "s11"
+        "s12"
+        "s13"
+        "s14"
+        "s15"
+        "s16"
+        "s17"
+        "s18";
+      grid-area: input-containers;
+    }
+    .s01 { grid-area: s01; }
+    .s02 { grid-area: s02; }
+    .s03 { grid-area: s03; }
+    .s04 { grid-area: s04; }
+    .s05 { grid-area: s05; }
+    .s06 { grid-area: s06; }
+    .s07 { grid-area: s07; }
+    .s08 { grid-area: s08; }
+    .s09 { grid-area: s09; }
+    .s10 { grid-area: s10; }
+    .s11 { grid-area: s11; }
+    .s12 { grid-area: s12; }
+    .s13 { grid-area: s13; }
+    .s14 { grid-area: s14; }
+    .s15 { grid-area: s15; }
+    .s16 { grid-area: s16; }
+    .s17 { grid-area: s17; }
+    .s18 { grid-area: s18; }
+    .Effi-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "tai-effi"
+        "nin-effi"
+        "buki-effi"
+        "stam-effi"
+        "ele-effi"
+        "gen-effi"
+        "atk-effi"
+        "strike-effi"
+        "hit-effi"
+        "roll-effi"
+        "focus-effi"
+        "burst-effi"
+        "range-effi"
+        "boost-effi"
+        "rec-effi"
+        "act-effi"
+        "mast-effi"
+        "rech-effi";
+      grid-area: Effi-container;
+    }
+    .tai-effi { grid-area: tai-effi; }
+    .nin-effi { grid-area: nin-effi; }
+    .buki-effi { grid-area: buki-effi; }
+    .stam-effi { grid-area: stam-effi; }
+    .ele-effi { grid-area: ele-effi; }
+    .gen-effi { grid-area: gen-effi; }
+    .atk-effi { grid-area: atk-effi; }
+    .strike-effi { grid-area: strike-effi; }
+    .hit-effi { grid-area: hit-effi; }
+    .roll-effi { grid-area: roll-effi; }
+    .focus-effi { grid-area: focus-effi; }
+    .burst-effi { grid-area: burst-effi; }
+    .range-effi { grid-area: range-effi; }
+    .boost-effi { grid-area: boost-effi; }
+    .rec-effi { grid-area: rec-effi; }
+    .act-effi { grid-area: act-effi; }
+    .mast-effi { grid-area: mast-effi; }
+    .rech-effi { grid-area: rech-effi; }
+  
