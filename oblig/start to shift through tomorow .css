@@ -1,0 +1,252 @@
+
+
+
+/* chakra realated */
+.Cost {
+    background-color: burlywood;
+    display: grid;
+    position: relative;
+   }
+  .chakra
+  { display: grid;
+    position: relative;
+  background-color: aqua;
+  justify-content: center;
+  }
+  
+
+  /*End off chakra related*/
+  
+  
+  /*cost reduction*/
+  .quarter1{ /*txt box*/
+    position: relative;
+     display: grid;
+     flex-wrap:wrap;
+   border:1px solid black;
+     font-size:2vh;
+   }
+   .NY{
+    position: relative;  /*for quarter 1 Forbidden */
+    display: grid;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-size:2vh;
+    background-color: hotpink;
+    border:2px dotted white;
+  }
+  
+  .quarter2{/*txt box*/
+    position: relative;
+    display: grid;
+    flex-wrap:wrap;
+    font-size:2vh;
+    border:1px solid black;
+  }
+   .YN{ /*for quarter 2 Fixed chakra  */
+    position: relative;
+    display: grid;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-size:2vh;
+    background-color: hotpink;
+    border:2px dotted white;
+  
+   }
+   /*end off cost reduction*/
+  
+   .ID{ /*ID off ninja gives the entire name */
+    position: relative;
+    display: grid;
+  bottom:41vh;
+  left:9.4vw;
+  justify-content: center;
+  background-color: blueviolet;
+  }
+  /*end of ID*/
+  
+  .Seal /*the seal lvl*/ {
+    display: flex;
+    position: relative;
+  }
+  /*Ninja name*/
+  .NinjaName { 
+    display: flex;
+    position: relative;
+    bottom:41vh;
+  left:9.4vw;
+  justify-content: center;
+  background-color: blueviolet;
+  }
+  /*end off ninja spefic*/
+  
+  /* LVL related*/
+  /* input put lvl*/
+  
+  #LVL{
+    display: grid;
+    position:relative;
+    border-radius:12px;
+    background-color: blueviolet;
+    left:10vw;
+    bottom:20vh;
+  }
+  .button /* the lvl confim button*/ {
+    display: grid;
+    border:1px solid blue;
+    border-style:dotted solid double dashed;
+      position:relative;
+      background-color:white;
+    color: #000000;
+    left:11vw;
+    bottom:20vh;
+    }
+  
+    #result { /*the thing that gets all the stat growth + stat value for lvling*/
+      color: white;
+      display: grid;
+        position:relative;
+        background-color: purple;
+        left:40vw;
+        height:20vh;
+        width:10vw;
+        }
+  .lvl{
+    /*the Lvl tag*/
+    display: flex;
+    position: relative;
+  }
+  /*end off lvl tag */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Tai {
+    border-bottom: 1px solid black; 
+    text-align: center;
+    font-size:2vh;
+}
+.Nin{
+    border-bottom: 
+    1px solid black;
+    font-size:2vh;
+    text-align: center;
+}
+.Buki{
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.Sta{ text-align: center;
+    border-bottom: 1px solid black;   
+    font-size:2vh;
+}
+.Ele{ text-align: center;
+    border-bottom: 1px solid black; 
+    font-size:2vh;
+}
+.Gen{
+    border-bottom: 1px solid black;  
+    font-size:2vh;
+    text-align: center;
+}
+.Atk {
+    
+    border-bottom: 1px solid black;
+    font-size:2vh;
+    text-align: center;
+}
+.Strike{
+    text-align: center;
+    font-size:2vh;
+    border-bottom: 1px solid black;
+}
+.Hit{
+    text-align: center;
+    font-size:2vh;
+    border-bottom: 1px solid black;
+}
+.Roll{
+    text-align: center;
+    font-size:2vh;
+    border-bottom: 1px solid black;
+}
+.Focus{
+    font-size:2vh;
+    text-align: center;
+    
+}
+
+.Burst{
+    font-size:2vh;
+    text-align: center;
+    border: 1px solid black;
+}
+.Range{
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.Boost{
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.Rec{
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.Act{
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
+    
+}
+.Mastery{
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.Rech{
+    display: ;
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.Endu{
+    font-size:2vh;
+    border-bottom: 2px solid black;
+}

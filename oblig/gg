@@ -1,9 +1,25 @@
 
- .qq {}
- .used 
-/*all stat container*/
 
-/*all primary stats*/
+.Penalty-containers {
+  display: grid;
+  position: relative;
+  background-color: aquamarine;
+  bottom:14.5vw;
+  left:11vw;
+  width:39.4vw;
+  height:18.2vh;
+  border-bottom: 2px solid black;
+  justify-content: center;
+ }
+
+
+.Ninjasheet1-containers {
+  display: grid;
+
+}
+
+
+  
 .Primestat-containers{
     display: grid;
     position: relative;
@@ -14,11 +30,7 @@
     position: relative;
     justify-content: center;
     background-color: blue;
-     right:139.3vw;
-     top:9.1vh;
-     width:49.8vw;
-     height:07.1vh;
-    }
+}
     .statnames{
         justify-content: center;
         position:relative;
@@ -54,10 +66,6 @@
     position:relative;
        border:solid 1px black; 
      justify-content: center;
-     right:148.8vw;
-     bottom:-1.9vh;
-     width:09.3vw;
-     height:07vh;
     
      }
      #inn{
@@ -70,119 +78,195 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
    }
-   .input-containers{
-    display: grid;
-   
-    right:97vw;
-     top:3vh;
-     width:09.5vw;
-   }
 .s01{  
     border-bottom: 1px solid black; 
-    position:static;
+    position:relative;
    background-color:teal;
     display:grid;
   }
 .s02{border-bottom: 1px solid black; 
-    position:static;
+    position:relative;
   background-color:teal;
     display:grid;
    
    }
 .s03{
     border-bottom: 1px solid black;
-     position:static;
+     position:relative;
   background-color:teal;
      display:grid;
    }
 .s04{    border-bottom: 1px solid black;
-    position:static;
+    position:relative;
    background-color:teal;
     display:grid;
    }
 .s05{    border-bottom: 1px solid black;
-    position:static;
+    position:relative;
   background-color:teal;
     display:grid;
     
  }
 .s06{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
   background-color:teal;
     display:grid;
     
 }
 .s07{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
   background-color:teal;
     display:grid;
    }
 .s08{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     background-color:teal;
     display:grid;
   }
 .s09{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     background-color:teal;
     display:grid;
   }
 .s10{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     display:grid;
     background-color:teal;
  
   }
 .s11{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     background-color:teal;
     display:grid;
 }
 .s12{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     display:grid;
     background-color:teal;
 }   
 .s13{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     display:grid;
     background-color:teal;
     ;}
 .s14{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     background-color:teal;
     display:grid;
    }
  
 .s15{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     background-color:teal;
     display:grid;
 } 
 .s16{ border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     background-color:teal;
     display:grid;
 }
 .s17{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     background-color:teal;
     display:grid;
    }
 .s18{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     background-color:teal;
     display:grid;
     }
 .s19{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     display:grid;
    }
 .s20{border-bottom: 1px solid black;
-    position:static;
+    position:relative;
     display:grid;
    } 
 
 
 
 
+ /*Dmg output*/
+   .Dmgout-containers{
+    display:grid;
+  }
+  .D-R{
+    display: grid;
+  position: relative;
+  border:2px solid grey;
+  background-color: grey;
+ 
+  }
+  .avrdmgcritt{
+  background-color: thistle;
+  display: grid;
+  position: relative;
+  
+  }
+.avrdmg{display: grid;
+    background-color: green;
+    border: 2px solid green;
+  position: relative;
+
+  }
+  .Dmgran{display: grid;
+    background-color: fuchsia;
+  position: relative;
+ 
+  }
+  .low-dmg{
+    display: grid;
+  position: relative;
+  background-color: red;
+ 
+  }
+  .high-dmg{display: grid;
+  position: relative;
+  background-color: royalblue;
+  
+  }
+  .avrcrit-dmg{
+    background-color: skyblue;
+    display: grid;
+  position: relative;
+  
+  
+  }
+  .dmg-rng-critt{
+    background-color: salmon;
+    display: grid;
+  position: relative;
+  }
+  .low-critt{
+    background-color: silver; 
+    display: grid;
+  position: relative;
+ }
+  .high-critt{
+    background-color: gold;
+    display: grid;
+  position: relative;
+}
+/*end off dmg out */
+
+/*dont know if in use */
+/* input{
+  position:fixed;
+  display: flex;
+  flex-wrap:wrap;
+} */.dropdown {
+  position: fixed;
+  display: inline-block;
+  }
+ 
+.dropdown-content {
+  display:block;
+  width: 700px;
+  position:fixed;
+  background-color: #f9f9f9;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

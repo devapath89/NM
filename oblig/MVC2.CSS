@@ -3,8 +3,13 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  overflow: hidden;
  }
 body {display:grid;
+ }
+ .Ninjasheet1-containers{
+   display: grid;
+   position: absolute;
  }
 /* page related stuff */
 /* Chrome, Safari, Edge, Opera removes arrows*/
@@ -24,29 +29,61 @@ input[type=number] {
   flex-wrap: wrap;
   flex-direction:column; 
   }
+  .Ninjainfo1-containers{
+    display: grid;
+    position: static;
+    width:25%;
+    height:25%;
+  }
   /*end off draw out div*/ 
   .hei {/*Dropdown bar */
     display: grid;
     position:relative;
     background-color: aqua;
-  left:20vw;
-  top:2vh;
-  width:5vw;
-  height:5vh;
-  }
+    left:9.5vw;
+    top:5vh;
+    width:49.9vw;
+    height:7.5vh;
+  } 
 
 
 /* end off dropdownbar */
 
-
-/* end off page related stuff */
-
-/* the entire info sheet */
-.Ninjasheet1-containers {
-  display: grid;
-
+.ninjaImg{
+  display:grid;
+  position: relative;
+  top:-33.33vh;
+  height:9vh;
+  width:9vw;
+  
 }
 
-/*the end off the info sheet*/
+.LVLbox { 
+  /* lvl box*/
+  display: grid;
+  position: relative;
+  bottom:71.7vh;
+  height:9vh;
+  width:49.9vw;
+  left:0vw;
+  
+}
+.button{/* the lvl button*/
+  display: grid; 
+  position:static;
+  background-color: blue;
+ 
+  
+  border: 2px solid black;
+  
+
+}
+#LVL {/* the lvl input*/
+  display: grid; 
+  position:static;
+  background-color: blue;
+  width:inherit;
+  border: 2px solid black;
+}
 
   

@@ -1,173 +1,238 @@
-/* the info box about ninja cost etc */
-
-.Ninjainfo1-containers{ /*bot touched*/
- display:grid;
-}
-/* the ninja img*/
-.ninjaImg{
-  display: grid;
-  position:relative;
-  bottom:vh;
-  left:1vh;
-}
-/*end off ninja img*/
-
-/* chakra realated */
-.Cost {
-  background-color: burlywood;
+.theninja{ /*ninja ID and ninjaName Tags container */
   display: grid;
   position: relative;
- }
-.chakra
-{ display: grid;
+  left:vw;
+  bottom:25.83vh;
+  width:49.7vw;
+  height:10vh;
+  border: 2px solid black;
+}
+/*ninja ID and ninjaName Tags container end  */
+.ID { /*ninja ID*/
+  
+  background-color:hotpink;
+  display: grid;
+  position: static;
+  height:5vh;
+ 
+  
+border-bottom: 1px solid black;
+  
+}
+/*ninja ID end */
+.er{
+  background-color: blueviolet;
+  display: grid;
   position: relative;
-background-color: aqua;
+bottom:26.955vh;
+width:9.4vw;
+height:10vh;
+}
+.Cost{
+display: grid;
+position: static;
 justify-content: center;
+font-weight: bold;
+font-size:2vh;
 }
+.chakra{
+ display: grid; 
+ position: static;
+ font-weight: bold;
+ justify-content: center;
+ font-size:2vh;
+}
+/*ninja Name   */
+.NinjaName{
+  background-color:hotpink;
+  display: grid;
+  position: static;
+  height:5vh;
+ 
+  
+
+}
+/*ninja ID end */
+.Penalty-containers {
+  display: grid;
+  position: relative;
+  height:10.5vh;
+  bottom:36vh;
+}
+ .is-off{
+display: grid;
+position: static;
+background-color: aquamarine;
+
+ }
+ .Y-N{
+display: grid;
+position: static;
+background-color: aquamarine;
+
+
+ }
+ .offpos{
+display:grid;
+position: static;
+background-color: aquamarine;
+
+
+ }
+ .Pen{
+   display: grid;
+   position: static;
+   background-color: aquamarine;
+   bottom:39.9vw;
+
+
+ }
+
+
+/*posstion tag */
 
 .position{
   display: grid;
 position: relative;
 background-color: brown;
-bottom:35vh;
 justify-content: center;
-left:90vw;
-height:10vh;
-width:10vw;
-font-size:4vh;
+right:0vw;
+bottom:33.4vh;
+width:39.4vw;
+height: 12vh;
 }
-/*End off chakra related*/
-
-
-/*cost reduction*/
-.quarter1{ /*txt box*/
-  position: relative;
-   display: grid;
-   flex-wrap:wrap;
- border:1px solid black;
-   font-size:2vh;
- }
- .NY{
-  position: relative;  /*for quarter 1 Forbidden */
+/*posstion tag end */
+/* seal tag box needs to be helped  */
+.Seals{
+ 
   display: grid;
-  flex-wrap:wrap;
-  justify-content: center;
-  font-size:2vh;
-  background-color: hotpink;
-  border:2px dotted white;
-}
-
-.quarter2{/*txt box*/
+  grid-template-columns: 1fr 1fr;
   position: relative;
-  display: grid;
-  flex-wrap:wrap;
-  font-size:2vh;
-  border:1px solid black;
-}
- .YN{ /*for quarter 2 Fixed chakra  */
-  position: relative;
-  display: grid;
-  flex-wrap:wrap;
-  justify-content: center;
-  font-size:2vh;
-  background-color: hotpink;
-  border:2px dotted white;
-
- }
- /*end off cost reduction*/
-
- .ID{ /*ID off ninja gives the entire name */
-  position: relative;
-  display: grid;
-bottom:41vh;
-left:9.4vw;
+ bottom:15.34vh;
+  right:89.31vw;
+height:4.5vh;
+width:49.85vw;
 justify-content: center;
-background-color: blueviolet;
+font-size:3vh;
+border: 1px solid black;
 }
-/*end of ID*/
-
-.Seal /*the seal lvl*/ {
-  display: flex;
-  position: relative;
-}
-/*Ninja name*/
-.NinjaName { 
-  display: flex;
-  position: relative;
-  bottom:41vh;
-left:9.4vw;
-justify-content: center;
-background-color: blueviolet;
-}
-/*end off ninja spefic*/
-
-/* LVL related*/
-/* input put lvl*/
-
-#LVL{
+.SealTag{
+  background-color: crimson;
   display: grid;
-  position:relative;
-  border-radius:12px;
-  background-color: blueviolet;
-  left:10vw;
-  bottom:20vh;
+  position:static
+  
+ 
 }
-.button /* the lvl confim button*/ {
+.Seal{
   display: grid;
-  border:1px solid blue;
-  border-style:dotted solid double dashed;
-    position:relative;
-    background-color:white;
-  color: #000000;
-  left:11vw;
-  bottom:20vh;
-  }
+  background-color: crimson;
+  position:static
 
-  #result { /*the thing that gets all the stat growth + stat value for lvling*/
-    color: white;
-    display: grid;
-      position:relative;
-      background-color: purple;
-      left:40vw;
-      height:20vh;
-      width:10vw;
-      }
-.lvl{
-  /*the Lvl tag*/
-  display: flex;
-  position: relative;
 }
-/*end off lvl tag */
 
+/* seal tag box */
 
 /* blood line contaier */
 
-  .BL{display: grid;
-    font-size:2vh;
-   border-top: 2px solid black;
-    background-color: crimson;} 
+.BL-containers{
+  display: grid;
+  position: relative;
+  right:89.39vw;
+  bottom:35.8vh;
+  height:20vh;
+ width:40;
+  
+ 
+}
 .bloodline{
     display: grid;
+    position: static;
     font-size:2vh;
    border-top: 2px solid black;
-    background-color: crimson;}
+    background-color: crimson;
+    width:19.6vw;
+  }
   .bloodlinelvl{
     display: grid;
+    position: static;
     font-size:2vh;
     border-bottom: 2px solid black;
-     background-color: crimson;
-     
-     
+    background-color: crimson;
+    width:19.6vw;
   }
   .Blood-line{
     display: grid;
+    position: static;
     font-size:2vh;
-    border: 1px solid black;
-     background-color: crimson;}
+   border: 1px solid black;
+     background-color: crimson;
+     width:19.7vw;
+    }
   .Blood-Line-LvL{
     display: grid;
+    position: static;
     font-size:2vh;
     border:1px solid black;
-     background-color: crimson;}
+    top:-0.1vh;
+     background-color: crimson;
+     width:19.82vw;
+    }
 
 /* end off BL related */
+.fq {
+  display: grid;
+  position:relative;
+  bottom:30vh;
+  right:150vw;
+  width:10.6vw;
+  border:1px solid black;
+  height:14vh;
+}
+.Fixed1{
+  display: grid;
+  position:static;
+  
+  justify-content: center;
+  
+
+}
+.quarter1{
+  display: grid;
+  position:static;
+  background-color: brown;
+  
+  justify-content: center;
+  
+}
+.NY{
+  display: grid;
+  position:static;
+  background-color: brown;
+  
+  justify-content: center;
+  
+}
+.Fixed2{
+  display: grid;
+  position:static;
+  background-color: brown;
+ 
+  justify-content: center;
+  
+}
+.quarter2{
+  display: grid;
+  position:static;
+  background-color: brown;
+  
+  justify-content: center;
+ 
+}
+.YN{
+  display: grid;
+  position:static;
+  background-color: brown;
+  
+  justify-content: center;
+ 
+}

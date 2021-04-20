@@ -3,31 +3,50 @@
 
 
 
-.Item-container {
+ .Item-container {
+   display: grid;
+   background-color: darkgreen;
+   position: relative;
+   right:139.3vw;
+   bottom:35.9vh;
+   width:49.9vw;
+   height:20vh;
+ }
+.item1{
   display: grid;
-  position: relative;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  border: 1px solid black;
-right: 40vw;
-width:;
+  position: static;
+border:2px solid black;
 }
+.ItemTg2{
+  display: grid;
+  position: static;
+border:2px solid black;
+}
+.Item2{
+  display: grid;
+  position: static;
+border:2px solid black;
+}
+.ItemTg3{
+  display: grid;
+  position: static;
 
-.ItemTg1 { grid-area: 1 / 1 / 2 / 2; 
-border: 1px solid black;}
+}
+.Item3{
+  display: grid;
+  position: static;
+ border:2px solid black; 
+}
+.ItemTg{
+  display: grid;
+  position: static;
 
-.item1 { grid-area: 1 / 2 / 2 / 3; }
+}
+.ItemEq{
+display: grid;
+  position: static;
 
-.ItemTg2 { grid-area: 2 / 1 / 3 / 2; }
+}
+ 
 
-.Item2 { grid-area: 2 / 2 / 3 / 3; }
-
-.ItemTg3 { grid-area: 3 / 1 / 4 / 2; }
-
-.Item3 { grid-area: 3 / 2 / 4 / 3; }
-
-.ItemTg { grid-area: 1 / 1 / 4 / 2; }
-
-.ItemEq { grid-area: 1 / 2 / 4 / 3; }
 
