@@ -10,7 +10,7 @@
    right:138.2vw;
    bottom:43.2644vh;
    width:49.9vw;
-   height:22.5vh;
+   height:14.9vh;
  }
 .item1{
   display: grid;
@@ -25,7 +25,7 @@ border-bottom: 1px solid black;
 .ItemTg2{
   display: grid;
   position: static;
-border-bottom: 1px solid black;
+
 }
 .Item2{
   display: grid;
