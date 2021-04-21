@@ -154,8 +154,8 @@ border:1px solid black;
   bottom:48.1vh;
   right:147.2vw;
   width:9vw;
-  
-  height:10vh;
+  height:9.7vh;
+  border-bottom:1px solid black;
 }
 .Fixed1{
   display: grid;
