@@ -15,12 +15,12 @@
 .item1{
   display: grid;
   position: static;
-
+border-bottom: 1px solid black;
 }
 .ItemTg2{
   display: grid;
   position: static;
-
+border-bottom: 1px solid black;
 }
 .Item2{
   display: grid;
@@ -35,7 +35,7 @@
 .Item3{
   display: grid;
   position: static;
-  
+ border-bottom: 1px solid black; 
 }
 .ItemTg{
   display: grid;
