@@ -27,10 +27,12 @@ html += `<div class="Ninjasheet1-containers">` //ninja 1 sheet1 tabel with lots 
 
             html += `<div class="position">Position: ${option.Position}</div>`
                                 //seals //
-            html += `<div class="Seals">`
+            html += `<div class="TB">`   //start off TB tag//      
+            html += `<div class="Seals">` //seal class//
             html += ` <div class="SealTag">Seal:</div>`
             html += `<div class=seal>${option.Seal}</div>`
-            html += ` </div>`
+            html += ` </div>`//end off Seals//
+            html += ` </div>` //emd off TB tag //
                                 //end of seal//
                                //lvl input and lvl defined //
             html += `<div class="LVLbox">`

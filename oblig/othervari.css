@@ -1,13 +1,4 @@
-.theninja{ /*ninja ID and ninjaName Tags container */
-  display: grid;
-  position: relative;
-  left:1vw;
-  bottom:28.7vh;
-  width:49.9vw;
-  height:7.5vh;
-  
-}
-/*ninja ID and ninjaName Tags container end  */
+
 .ID { /*ninja ID*/
   
   background-color:hotpink;
@@ -20,16 +11,7 @@ border-bottom: 1px solid black;
   
 }
 /*ninja ID end */
-.er{
-  background-color: blueviolet;
-  display: grid;
-  position: relative;
-  bottom:47.98vh;
-  left:1.3vw;
-  width:9vw;
-  height:7.4vh;
 
-}
 .Cost{
 display: grid;
 position: static;
@@ -55,36 +37,29 @@ font-size:2vh;
 
 }
 /*ninja ID end */
-.Penalty-containers {
-  display: grid;
-  position: relative;
-  height:7.5vh;
-  left:1vw;
-  bottom:58vh;
-  font-size:3vh;
-  width:39.4vw;}
- .is-off{
+
+ .is-off{ /* position penalty */
 display: grid;
 position: static;
 background-color: aquamarine;
 justify-content: center;
 border:1px solid black;
  }
- .Y-N{
+ .Y-N{/* position penalty */
 display: grid;
 position: static;
 background-color: aquamarine;
 justify-content: center;
 border:1px solid black;
  }
- .offpos{
+ .offpos{/* position penalty */
 display:grid;
 position: static;
 background-color: aquamarine;
 justify-content: center;
 border:1px solid black;
  }
- .Pen{
+ .Pen{/* position penalty */
    display: grid;
    position: static;
    background-color: aquamarine;
@@ -92,36 +67,24 @@ border:1px solid black;
    border:1px solid black;
 
  }
+/* position penalty end  */
 
 
-/*posstion tag */
-
-.position{
-  display: grid;
-position: relative;
-background-color: brown;
-justify-content: center;
-left:1vw;
-bottom:36.4vh;
-width:39.4vw;
-height: 7.5vh;
-}
-/*posstion tag end */
-/* seal tag box needs to be helped  */
-.Seals{
+    /* seal  container   */
+    .Seals{
  
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  position: relative;
- bottom:18.54vh;
-  right:8vw;
-height:4.5vh;
-width:49.9vw;
-justify-content: center;
-font-size:3vh;
-border: 1px solid black;
-}
-.SealTag{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: relative;
+     bottom:10.955vh;
+      right:88.3vw;
+    height:4.5vh;
+    width:49.8vw;
+    justify-content: center;
+    font-size:3vh;
+    border: 1px solid black;
+    }/*end off seal tag */
+.SealTag{/* seal tag box */
   background-color: crimson;
   display: grid;
   position:static
@@ -134,8 +97,8 @@ border: 1px solid black;
   position:static
 
 }
+/*end off seal container */
 
-/* seal tag box */
 
 /* blood line contaier */
 
@@ -188,9 +151,9 @@ border: 1px solid black;
 .fq {
   display: grid;
   position:relative;
-  bottom:45.2vh;
-  right:147.7vw;
-  width:9.4vw;
+  bottom:48.1vh;
+  right:147.2vw;
+  width:9vw;
   
   height:10vh;
 }

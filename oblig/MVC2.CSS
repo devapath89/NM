@@ -7,10 +7,7 @@ body {
  }
 body {display:grid;
  }
- .Ninjasheet1-containers{
-   display: grid;
-   position: absolute;
- }
+
 /* page related stuff */
 /* Chrome, Safari, Edge, Opera removes arrows*/
 input::-webkit-outer-spin-button,
@@ -29,26 +26,7 @@ input[type=number] {
   flex-wrap: wrap;
   flex-direction:column; 
   }
-  .Ninjainfo1-containers{
-    display: grid;
-    position: static;
-    width:25%;
-    height:25%;
-  }
-  /*end off draw out div*/ 
-  .hei {/*Dropdown bar */
-    display: grid;
-    position:relative;
-    background-color: aqua;
-    left:10.5vw;
-    top:2vh;
-    width:49.9vw;
-    height:7.5vh;
-  } 
-
-
-/* end off dropdownbar */
-
+ 
 .ninjaImg{
   display:grid;
   position: relative;
