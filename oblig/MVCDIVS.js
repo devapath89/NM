@@ -88,129 +88,129 @@ html += `<div class="Ninjasheet1-containers">` //ninja 1 sheet1 tabel with lots 
             html += `<div class="qq"><b>Statpoints used</b></div>`
             html += `<div class="used"><b>used stat points</b></div>`
             html += `<div class=The-Stats>STATS</div>`; //stats bar//
-            // html += `<div class="txt">`; //statnames //
-//             html += `<div class=Tai>Taijutsu</div>`
-//             html += `<div class=Nin>Ninjutsu</div>`
-//             html += `<div class=Buki>Bukijutsu</div>`
-//             html += `<div class=Sta>Stamina</div>`
-//             html += `<div class=Ele>Elemental</div>`
-//             html += `<div class=Gen>Genjutsu</div>`
-//             html += `<div class=Atk>Attack</div>`
-//             html += `<div class=Strike>CriticalStrike</div>`
-//             html += `<div class=Hit>Critical Hit</div>`
-//             html += `<div class=roll>Reroll</div>`
-//             html += `<div class=Focus>Focus</div>`
-//             html += `<div class=Burst>Focus Burst</div>`
-//             html += `<div class=Range>Focus Range</div>`
-//             html += `<div class=Boost>Bukijutsu Boost</div>`
-//             html += `<div class=Rec>Bukijutsu Recovery</div>`
-//             html += `<div class=Act>Genjutsu Activation</div>`
-//             html += `<div class=Mastery>Genjutsu Mastery</div>`
-//             html += `<div class=Rech>Genjutsu Recharge</div>`
-//             html += `<div class=Endu>Endurance</div>`
-//             html += `</div>`; // end off Stat names//
+            html += `<div class="txt">`; //statnames //
+            html += `<div class=Tai>Taijutsu</div>`
+            html += `<div class=Nin>Ninjutsu</div>`
+            html += `<div class=Buki>Bukijutsu</div>`
+            html += `<div class=Sta>Stamina</div>`
+            html += `<div class=Ele>Elemental</div>`
+            html += `<div class=Gen>Genjutsu</div>`
+            html += `<div class=Atk>Attack</div>`
+            html += `<div class=Strike>CriticalStrike</div>`
+            html += `<div class=Hit>Critical Hit</div>`
+            html += `<div class=roll>Reroll</div>`
+            html += `<div class=Focus>Focus</div>`
+            html += `<div class=Burst>Focus Burst</div>`
+            html += `<div class=Range>Focus Range</div>`
+            html += `<div class=Boost>Bukijutsu Boost</div>`
+            html += `<div class=Rec>Bukijutsu Recovery</div>`
+            html += `<div class=Act>Genjutsu Activation</div>`
+            html += `<div class=Mastery>Genjutsu Mastery</div>`
+            html += `<div class=Rech>Genjutsu Recharge</div>`
+            html += `<div class=Endu>Endurance</div>`
+            html += `</div>`; // end off Stat names//
         
 //                 //the Efficantcy off stats //
 
             html += `<div class="Efficantcy">Efficantcy</div>`
             html += `<div class="Effi-container">`
              
-//             html+= `<div class="tai-effi">%</div>`
-//             html+= `<div class="nin-effi">%</div>`
-//             html+= `<div class="buki-effi">%</div>`
-//             html+= `<div class="Stam-effi">%</div>`
-//             html+= `<div class="ele-effi">%</div>`
-//             html+= `<div class="gen-effi">%</div>`
-//             html+= `<div class="atk-effi">%</div>`
-//             html+= `<div class="strike-effi">%</div>`
-//             html+= `<div class="hit-effi">%</div>`
-//             html+= `<div class="reroll-effi">%</div>`
-//             html+= `<div class="focus-effi">%</div>`
-//             html+= `<div class="focusburst-effi">%</div>`
-//             html+= `<div class="focusrange-effi">%</div>`
-//             html+= `<div class="boost-effi">%</div>`
-//             html+= `<div class="buki-rec-effi">%</div>`
-//             html+= `<div class="gen-act-effi">%</div>`
-//             html+= `<div class="gen-mastery-effi">%</div>`
-//             html+= `<div class="gen-rec-effi">%</div>`
-//             html+= `<div class="endu-effi">%</div>`
-//             html += `</div>`; //end off Efficantcy//
+            html+= `<div class="tai-effi">%</div>`
+            html+= `<div class="nin-effi">%</div>`
+            html+= `<div class="buki-effi">%</div>`
+            html+= `<div class="Stam-effi">%</div>`
+            html+= `<div class="ele-effi">%</div>`
+            html+= `<div class="gen-effi">%</div>`
+            html+= `<div class="atk-effi">%</div>`
+            html+= `<div class="strike-effi">%</div>`
+            html+= `<div class="hit-effi">%</div>`
+            html+= `<div class="reroll-effi">%</div>`
+            html+= `<div class="focus-effi">%</div>`
+            html+= `<div class="focusburst-effi">%</div>`
+            html+= `<div class="focusrange-effi">%</div>`
+            html+= `<div class="boost-effi">%</div>`
+            html+= `<div class="buki-rec-effi">%</div>`
+            html+= `<div class="gen-act-effi">%</div>`
+            html+= `<div class="gen-mastery-effi">%</div>`
+            html+= `<div class="gen-rec-effi">%</div>`
+            html+= `<div class="endu-effi">%</div>`
+            html += `</div>`; //end off Efficantcy//
                   
     
     
 //                 //Stat input from stat+//
             html += `<div class="input-containers">`
         html += `<div class="input-container"><b>Statspoint</b></div> `;
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s01" >`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s02" >`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s03" >`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s04" min="0" max="45">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s05" min="0" max="45">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s06" min="0" max="45">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s07" min="0" max="0">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s08" min="0" max="10">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s09" min="0" max="21">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s10" min="0" max="15">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s11" min="0" max="10">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s12" min="0" max="15">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s13" min="0" max="0">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s14" min="0" max="0">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s15" min="0" max="0">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s16" min="0" max="0">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s17" min="0" max="0">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s18" min="0" max="0">`
-      //  html += `<input  type="number" id="inn" name="ticketNum" class="s19" min="0" max="0">`
-//        html += `</div>`; //end off stat + //
+       html += `<input  type="number" id="inn" name="ticketNum" class="s01" >`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s02" >`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s03" >`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s04" min="0" max="45">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s05" min="0" max="45">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s06" min="0" max="45">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s07" min="0" max="0">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s08" min="0" max="10">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s09" min="0" max="21">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s10" min="0" max="15">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s11" min="0" max="10">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s12" min="0" max="15">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s13" min="0" max="0">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s14" min="0" max="0">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s15" min="0" max="0">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s16" min="0" max="0">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s17" min="0" max="0">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s18" min="0" max="0">`
+       html += `<input  type="number" id="inn" name="ticketNum" class="s19" min="0" max="0">`
+       html += `</div>`; //end off stat + //
      
     
-// html += `<div class="Primestat-containers">`//Prime stat container //
-//                         //stat from ninja
-//         //loope ut stats
-//     let currentStat = ""; // mellomlagringsvar
-//     for(stat in option.Stats){
-//     //get key
-//     //     currentStat = stat; // - ta vare på "current stat" fra løkka
-//     //     html += `<div>${currentStat}: ${option.Stats[stat]}</div>`;
-//     // }                   //  name       stat value
-//     // let currentGrowth = "";
-//     currentStat = stat;
+html += `<div class="Primestat-containers">`//Prime stat container //
+                        //stat from ninja
+        //loope ut stats
+    let currentStat = ""; // mellomlagringsvar
+    for(stat in option.Stats){
+    //get key
+    //     currentStat = stat; // - ta vare på "current stat" fra løkka
+    //     html += `<div>${currentStat}: ${option.Stats[stat]}</div>`;
+    // }                   //  name       stat value
+    // let currentGrowth = "";
+    currentStat = stat;
 
-//     html += `<div class="StatNames">${option.Stats[stat]}${model.DemStats[0]} </div>`;
-//         console.log(model.DemStats,'bø')
-//      }
-//     //  for(stat in model.DemStats){
-//     //     //get key
-//     //     //     currentStat = stat; // - ta vare på "current stat" fra løkka
-//     //     //     html += `<div>${currentStat}: ${option.Stats[stat]}</div>`;
-//     //     // }                   //  name       stat value
-//     //     // let currentGrowth = "";
-//     //     currentStat = stat;
+    html += `<div class="StatNames">${option.Stats[stat]}${model.DemStats[0]} </div>`;
+        console.log(model.DemStats,'bø')
+     }
+    //  for(stat in model.DemStats){
+    //     //get key
+    //     //     currentStat = stat; // - ta vare på "current stat" fra løkka
+    //     //     html += `<div>${currentStat}: ${option.Stats[stat]}</div>`;
+    //     // }                   //  name       stat value
+    //     // let currentGrowth = "";
+    //     currentStat = stat;
     
-//     //     html += `<div class="StatNames">${stat} </div>`;
+    //     html += `<div class="StatNames">${stat} </div>`;
     
-//     //      }
+    //      }
 
 
-//  html += `</div>`; //end of primary stat container //
-//  //secondary stats//
-//  html += `<div class="Secondary-containers">`
-//     html += `<div Class= Atk>${SecondaryStats.Attack}</div>`;
-//     html += `<div Class= strike>${SecondaryStats.CriticalStrike}</div>`;
-//     html += `<div Class= hit>${SecondaryStats.CriticalChance} </div>`;
-//     html += `<div Class= roll>${SecondaryStats.Reroll}</div>`;
-//     html += `<div Class= focus>${SecondaryStats.Focus}</div>`;
-//     html += `<div Class= burst>${SecondaryStats.FocusBurst}</div>`;
-//     html += `<div Class= range>${SecondaryStats.FocusRange}</div>`;
-//     html += `<div Class= boost>${SecondaryStats.BukijutsuBoost}</div>`;
-//     html += `<div Class= rec>${SecondaryStats.BukijutsuRecovery}</div>`;
-//     html += `<div Class= act>${SecondaryStats.GenjutsuActivation}</div>`;
-//     html += `<div Class= mastery>${SecondaryStats.GenjutsuMastery}</div>`;
-//     html += `<div Class= rech> ${SecondaryStats.GenjutsuRecharge}</div>`;
+ html += `</div>`; //end of primary stat container //
+ //secondary stats//
+ html += `<div class="Secondary-containers">`
+    html += `<div Class= Atk>${SecondaryStats.Attack}</div>`;
+    html += `<div Class= strike>${SecondaryStats.CriticalStrike}</div>`;
+    html += `<div Class= hit>${SecondaryStats.CriticalChance} </div>`;
+    html += `<div Class= roll>${SecondaryStats.Reroll}</div>`;
+    html += `<div Class= focus>${SecondaryStats.Focus}</div>`;
+    html += `<div Class= burst>${SecondaryStats.FocusBurst}</div>`;
+    html += `<div Class= range>${SecondaryStats.FocusRange}</div>`;
+    html += `<div Class= boost>${SecondaryStats.BukijutsuBoost}</div>`;
+    html += `<div Class= rec>${SecondaryStats.BukijutsuRecovery}</div>`;
+    html += `<div Class= act>${SecondaryStats.GenjutsuActivation}</div>`;
+    html += `<div Class= mastery>${SecondaryStats.GenjutsuMastery}</div>`;
+    html += `<div Class= rech> ${SecondaryStats.GenjutsuRecharge}</div>`;
     
-//     html += `</div>`;//end off secondedary//
+    html += `</div>`;//end off secondedary//
 
     
-//                 html += `</div>`//end of stat related container 
+                html += `</div>`//end of stat related container 
                
                html += `</div>` //end off sheet//      
            html += `</div>`; //end off ninjasheet 1 + //
