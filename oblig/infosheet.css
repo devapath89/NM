@@ -90,7 +90,7 @@
   .Penalty-containers { /*penalty container */
     display: grid;
     position: relative;
-    height:7.5vh;
+    height:10vh;
     left:1vw;
     bottom:61.44vh;
     font-size:3vh;
