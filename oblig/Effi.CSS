@@ -1,4 +1,4 @@
-/*Efficantcy trait*/
+
 #Effi {
    font-size:2vh; 
     position: relative;
@@ -14,8 +14,10 @@
     display: grid;
     text-align: center;
     background-color: yellowgreen;
-    height:2vh;
-    
+    top:4.4vh;
+    height:07.1vh;
+    right:87.5vw;
+    width:39.4vw;
 }
 .tai-effi{
     border-left:2px solid black;

@@ -83,8 +83,8 @@ html += `<div class="Ninjasheet1-containers">` //ninja 1 sheet1 tabel with lots 
             //penalty / off end //
 
             html += `<div class="Stat-container">` // The Stat container for all stats //
-            html += `<div class="qq"></div>`
-            html += `<div class="used"></div>`
+            html += `<div class="qq"><b>Statpoints used</b></div>`
+            html += `<div class="used"><b>used stat points</b></div>`
             html += `<div class=The-Stats>STATS</div>`; //stats bar//
             // html += `<div class="txt">`; //statnames //
 //             html += `<div class=Tai>Taijutsu</div>`
@@ -109,7 +109,10 @@ html += `<div class="Ninjasheet1-containers">` //ninja 1 sheet1 tabel with lots 
 //             html += `</div>`; // end off Stat names//
         
 //                 //the Efficantcy off stats //
-//             html += `<div class="Effi-container">` 
+
+            html += `<div class="Efficantcy">Efficantcy</div>`
+            html += `<div class="Effi-container">`
+             
 //             html+= `<div class="tai-effi">%</div>`
 //             html+= `<div class="nin-effi">%</div>`
 //             html+= `<div class="buki-effi">%</div>`
