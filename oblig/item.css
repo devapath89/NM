@@ -11,6 +11,7 @@
    bottom:43.2644vh;
    width:49.9vw;
    height:14.9vh;
+   border-bottom: 1px solid black;
  }
 .item1{
   display: grid;
