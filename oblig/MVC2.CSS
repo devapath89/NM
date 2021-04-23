@@ -25,6 +25,7 @@ input[type=number] {
   position: absolute;
   width:100vw;
   height:100vh;
+  align-items:stretch;
   
 }
 /*div that draws out stuff*/
