@@ -37,7 +37,7 @@
 .theninja {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows:  0.5fr 0.5fr;
   gap: 0px 0px;
   grid-template-areas:
     "hei"
@@ -65,7 +65,7 @@
 .er {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
   gap: 0px 0px;
   grid-template-areas:
     "Cost"
@@ -80,7 +80,7 @@
 .LVLbox {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
   gap: 0px 0px;
   grid-template-areas:
     "button button button"
@@ -95,7 +95,7 @@
 .Penalty-containers {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
   gap: 0px 0px;
   grid-template-areas:
     "is-off"
@@ -117,7 +117,7 @@
 .fq {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
   gap: 0px 0px;
   grid-template-areas:
     "Fixed1"
@@ -128,7 +128,7 @@
 .Fixed1 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
   gap: 0px 0px;
   grid-template-areas:
     "quarter1"
@@ -143,7 +143,7 @@
 .Fixed2 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
   gap: 0px 0px;
   grid-template-areas:
     "quarter2"
