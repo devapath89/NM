@@ -2,8 +2,8 @@
 .Ninjainfo1-containers{
    
     position: absolute;
-    width:100%;
-    height:100%;
+    width:inherit;
+    height:inherit;
     grid-row: row-start / span row-span-value;
     grid-column: col-start / span col-span-value;
   

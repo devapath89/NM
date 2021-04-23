@@ -22,7 +22,8 @@ input[type=number] {
 
 /* evry thing in sheet 1. not under classes */
 .Ninjasheet1-containers{
-  display: grid;
+  display:inline-grid;
+  
   position: absolute;
   width:100vw;
   height:100vh;
