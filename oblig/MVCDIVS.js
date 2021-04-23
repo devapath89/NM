@@ -34,7 +34,13 @@ function makeDivs(){
             //end ninja ID//
             html+= `<div class= NinjaName > ${option.NinjaName}</div>`
             html += `</div>`
-            
+             //lvl input and lvl defined //
+            html += `<div class="LVLbox">`
+            html += `<div class="button">LVL</div>`
+            html+=`<input type="text" id="LVL" /><br> <input class="button" type="button" onClick="multiplyBy(this)" Value="LVL" />`
+                            
+            // html+=`<div ID="result"> </div>`
+            html += `</div>`        //end off lvl defined //
                             //end off spesifer//
  //equipment and items //
       // html +=`<div class="botox">`
@@ -57,13 +63,7 @@ function makeDivs(){
       // html +=`<div class="Item3">Item 3</div>`
       // html +=`<div class="ItemTg"></div>`
       // html +=`<div class="ItemEq"></div>` 
-      //       //lvl input and lvl defined //
-      //       html += `<div class="LVLbox">`
-      //       html += `<div class="button">LVL</div>`
-      //       html+=`<input type="text" id="LVL" /><br> <input class="button" type="button" onClick="multiplyBy(this)" Value="LVL" />`
-                            
-      //       // html+=`<div ID="result"> </div>`
-      //       html += `</div>`        //end off lvl defined //
+      //      
 
       // html += `</div>`;//end off items//</div>`
       // html += `</div>`  //end off Botox//     
