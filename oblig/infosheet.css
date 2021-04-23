@@ -87,3 +87,32 @@
   height:100%;
   } /*end off the penalty container*/
 
+  .LVLbox { 
+    /* lvl box*/
+    display: grid;
+    position: absolute;
+    
+    height:100%;
+    width:100%;
+    
+    
+  }
+  .button{/* the lvl button*/
+    display: grid; 
+      position: absolute;
+    background-color: blue;
+    height:inherit;
+    
+    border: 2px solid black;
+    
+  
+  }
+  .LVL {/* the lvl input*/
+    display: grid; 
+      position: absolute;
+    background-color: blue;
+    border: 2px solid black;
+    height:inherit;
+  }
+
+  /* blood line contaier */

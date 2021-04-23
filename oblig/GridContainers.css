@@ -7,7 +7,7 @@
     "Ninjainfo1-containers Ninjainfo1-containers Ninjainfo1-containers Ninjainfo1-containers"
     "Ninjainfo1-containers Ninjainfo1-containers Ninjainfo1-containers Ninjainfo1-containers"
     "abg Seal Seals TB"
-    "botox botox botox botox"
+    "fq Item-container Item-container BL-containers"
     "input-container The-Stats The-Stats Efficantcy"
     "input-containers txt Stats Effi-container"
     "input-containers txt Stats Effi-container"
@@ -35,7 +35,7 @@
   gap: 0px 0px;
   grid-template-areas:
   "fq Item-container Item-container BL-containers";
-  grid-area: botox;
+  grid-area: ;
 }
 .position { grid-area: position; }
 

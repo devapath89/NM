@@ -37,7 +37,7 @@ function makeDivs(){
              //lvl input and lvl defined //
             html += `<div class="LVLbox">`
             html += `<div class="button">LVL</div>`
-            html+=`<input type="text" id="LVL" /><br> <input class="button" type="button" onClick="multiplyBy(this)" Value="LVL" />`
+            html+=`<input type="text" class="LVL" id="LVL" /><br> <input class="button" type="button" onClick="multiplyBy(this)" Value="LVL" />`
                             
             // html+=`<div ID="result"> </div>`
             html += `</div>`        //end off lvl defined //
