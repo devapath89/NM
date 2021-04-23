@@ -36,7 +36,8 @@
   position: absolute;
   background-color: brown;
   justify-content: center;
- 
+ top:2vh;
+ left:-6vw;
   width:39.4vw;
   height: 7.5vh;
   }
@@ -47,7 +48,7 @@
     background-color: blueviolet;
     display: grid;
     position: absolute;
-   
+    top:10vh;
     width:9vw;
     height:7.4vh;
   
