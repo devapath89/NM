@@ -87,8 +87,10 @@
   .Penalty-containers { /*penalty container */
     display: grid;
     position: absolute;
-    bottom:45vh;
+    bottom:44vh;
+    left:-5.9vw;
     height:10vh;
     font-size:3vh;
-    width:39.4vw;} /*end off the penalty container*/
+    width:39.4vw;
+  } /*end off the penalty container*/
 

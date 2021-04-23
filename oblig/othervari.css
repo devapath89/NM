@@ -4,7 +4,7 @@
   background-color:hotpink;
   display: grid;
    position: absolute;
-   width:49.9vw;
+   width:49.8vw;
   height:7.5vh;
  
   
@@ -45,27 +45,34 @@ display: grid;
 background-color: aquamarine;
 justify-content: center;
 border:1px solid black;
+width:39.4vw;
  }
  .Y-N{/* position penalty */
 display: grid;
-  position: absolute;
+position: absolute;
+top:1vh;
 background-color: aquamarine;
 justify-content: center;
 border:1px solid black;
+width:39.4vw;
  }
  .offpos{/* position penalty */
 display:grid;
-  position: absolute;
+position: absolute;
+top:2vh;
 background-color: aquamarine;
 justify-content: center;
 border:1px solid black;
+width:39.4vw;
  }
  .Pen{/* position penalty */
    display: grid;
     position: absolute;
+    top:3vh;
    background-color: aquamarine;
    justify-content: center;
    border:1px solid black;
+   width:39.4vw;
 
  }
 /* position penalty end  */
