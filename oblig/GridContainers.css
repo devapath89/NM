@@ -1,7 +1,7 @@
 .Ninjasheet1-containers {
   display:inline-grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns:  25% 25% 25% 25%;
+  grid-template-rows: 8.8% 8.8% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-template-areas:
     "Ninjainfo1-containers Ninjainfo1-containers Ninjainfo1-containers Ninjainfo1-containers"
