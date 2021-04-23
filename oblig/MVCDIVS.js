@@ -206,7 +206,7 @@ function makeDivs(){
 //  html += `</div>`; //end of primary stat container //
 //  //secondary stats//
 //  html += `<div class="Secondary-containers">`
-//     html += `<div Class= Atk>${SecondaryStats.Attack}</div>`;
+//     html += `<div Class= atk>${SecondaryStats.Attack}</div>`;
 //     html += `<div Class= strike>${SecondaryStats.CriticalStrike}</div>`;
 //     html += `<div Class= hit>${SecondaryStats.CriticalChance} </div>`;
 //     html += `<div Class= roll>${SecondaryStats.Reroll}</div>`;
