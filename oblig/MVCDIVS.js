@@ -15,6 +15,13 @@ function makeDivs(){
             html += `<div Class=chakra>${option.Chakra}</div>`
             html += `</div>` //end off cost box//
            
+      //       html = `<select class="hei" onchange="selectNinja(this.value)">` ; 
+      //        // console.log("make dropdown kjører")
+      //    for(let ninja of Ninjas){
+      //      html +=`<option>${ninja.NinjaName}</option>`
+      //    }
+      //    html += '</select>'
+      
 
             html += `<div class="position">Position: ${option.Position}</div>`
                                 //seals //
