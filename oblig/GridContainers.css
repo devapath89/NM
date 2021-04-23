@@ -31,15 +31,7 @@
 
 
 }
-.botox {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr ;
-  gap: 0px 0px;
-  grid-template-areas:
-  "fq Item-container Item-container BL-containers";
-  grid-area: ;
-}
+
 .position { grid-area: position; }
 
 .theninja {
@@ -61,7 +53,15 @@
 .NinjaName { grid-area: NinjaName; }
 
 .ninjaImg { grid-area: ninjaImg; }
-
+.botox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr ;
+  gap: 0px 0px;
+  grid-template-areas:
+  "fq Item-container Item-container BL-containers";
+ 
+}
 .er {
   display: grid;
   grid-template-columns: 1fr;
