@@ -28,37 +28,4 @@ input[type=number] {
  
 
  
-.LVLbox { 
-  /* lvl box*/
-  display: grid;
-  position: absolute;
-  
-  height:7.5vh;
-  width:49.9vw;
- 
-  
-}
-.button{/* the lvl button*/
-  display: grid; 
-    position: absolute;
-  background-color: blue;
- 
-  
-  border: 2px solid black;
-  
-
-}
-#LVL {/* the lvl input*/
-  display: grid; 
-    position: absolute;
-  background-color: blue;
-  width:inherit;
-  border: 2px solid black;
-}
-.txt {
-  background-color:turquoise;
-  right:1vw;
-  justify-content: center;
-  position: absolute;
-  display:grid;}
 
