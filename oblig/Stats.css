@@ -3,8 +3,9 @@
   position: absolute;
 background-color: darkslateblue;
 justify-content: center;
-top:22vh;
-width:08.9vw;
+top:35vh;
+right:88.4vw;
+width:9.5vw;
 height:5vh;
 border:1px solid black;
 }
@@ -12,8 +13,9 @@ border:1px solid black;
     position: absolute;
   background-color: darkslateblue;
   justify-content: center;
-  top:22vh;
-  width:08.9vw;
+  top:40vh;
+  right:88.4vw;
+width:9.5vw;
   height:5vh;
   border:1px solid black;
 }
