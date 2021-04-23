@@ -1,19 +1,12 @@
 
 
-/* evry thing in sheet 1. not under classes */
-.Ninjasheet1-containers{
-    display: grid;
-    position: absolute;
-    width:98%;
-    height:98%;
-  }
+
 
   .hei {/*Dropdown bar */
     display: grid;
     position: absolute;
     background-color: aqua;
-    left:33.8vw;
-    top:2vh;
+  
     width:32.7vw;
     height:7vh;
   } 

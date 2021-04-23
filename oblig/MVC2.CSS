@@ -19,13 +19,28 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+/* evry thing in sheet 1. not under classes */
+.Ninjasheet1-containers{
+  display: grid;
+  position: absolute;
+  width:98%;
+  height:98%;
+}
 /*div that draws out stuff*/
 #selectResult {
-  display:flex;
-  flex-wrap: wrap;
-  flex-direction:column; 
+  display: grid;
+  position: absolute;
+  width:inherit;
+  height:inherit;
   }
- 
+  #hovedSide {
+    display: grid;
+  position: absolute;
+  width:14%;
+  height:10%;
+  left:35vw;
+  }
 
  
 
