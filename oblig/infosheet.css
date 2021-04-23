@@ -23,7 +23,7 @@
     .theninja{ /*ninja ID and ninjaName Tags container */
         display: grid;
         position: absolute;
-        top:10.1vh;
+        top:0vh;
         width:100%;
         height:100%;
        
@@ -35,10 +35,8 @@
         background-color:hotpink;
         display: grid;
          position: absolute;
-        
-      
-       
-        
+         width:100%;
+         height:100%;
       border-bottom: 1px solid black;
         
       }
@@ -49,6 +47,8 @@
         background-color:hotpink;
         display: grid;
          position: absolute;
+         width:100%;
+        height:100%;
     
        } /*Ninja name end */
 /*posstion tag */
