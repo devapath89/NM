@@ -130,7 +130,7 @@ function makeDivs(){
 //             html+= `<div class="tai-effi">%</div>`
 //             html+= `<div class="nin-effi">%</div>`
 //             html+= `<div class="buki-effi">%</div>`
-//             html+= `<div class="Stam-effi">%</div>`
+//             html+= `<div class="stam-effi">%</div>`
 //             html+= `<div class="ele-effi">%</div>`
 //             html+= `<div class="gen-effi">%</div>`
 //             html+= `<div class="atk-effi">%</div>`
