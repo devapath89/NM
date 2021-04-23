@@ -2,6 +2,9 @@
 .Ninjainfo1-containers{
     display: grid;
     position: absolute;
+
+    width:100%;
+    height:10%;
     
   }
   /*end off draw out div*/ 
