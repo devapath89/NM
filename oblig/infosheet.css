@@ -57,7 +57,7 @@
     /* lvl box*/
     display: grid;
     position: absolute;
-    to
+    bottom:30vh;
     height:7.5vh;
     width:49.9vw;
     

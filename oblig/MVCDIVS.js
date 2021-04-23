@@ -14,16 +14,7 @@ function makeDivs(){
             html += `<div Class=Cost>Cost</div>`
             html += `<div Class=chakra>${option.Chakra}</div>`
             html += `</div>` //end off cost box//
-            html += `  <div class="fq"> ` //fixed cost container//
-            html += `  <div class="Fixed1">` //fixed cost forbidden //
-            html += `<div Class=quarter1>can be quartered?: </div>`
-            html += `<div Class=NY> ${option.Forbidden}</div>`
-            html += `</div>`//end off fixed 1 forbidden //
-            html += `  <div class="Fixed2">`//fixed cost 2 have fixed chakra like evovve nin etc //
-            html += `<div Class=quarter2>can be quartered?: </div>`
-            html += `<div Class=YN>${option.FixedChakra}</div>`
-            html += `</div>` //end off fixed 2 forbidden //
-            html += `</div>`//end off fq fixed cost boxes
+           
 
             html += `<div class="position">Position: ${option.Position}</div>`
                                 //seals //
@@ -34,13 +25,7 @@ function makeDivs(){
             html += ` </div>`//end off Seals//
             html += ` </div>` //emd off TB tag //
                                 //end of seal//
-                               //lvl input and lvl defined //
-            html += `<div class="LVLbox">`
-            html += `<div class="button">LVL</div>`
-            html+=`<input type="text" id="LVL" /><br> <input class="button" type="button" onClick="multiplyBy(this)" Value="LVL" />`
-            html += `</div>`                
-                  // html+=`<div ID="result"> </div>`
-                        //end off lvl defined //
+            
                 
                         //ninja id name etc and choose ninja //
             html += `<div class="theninja">`
@@ -51,19 +36,39 @@ function makeDivs(){
             html += `</div>`
             
                             //end off spesifer//
-                    //equipment and items //
+ //equipment and items //
+      html +=`<div class="botox">`
+      html += `  <div class="fq"> ` //fixed cost container//
+      html += `  <div class="Fixed1">` //fixed cost forbidden //
+      html += `<div Class=quarter1>can be quartered?: </div>`
+      html += `<div Class=NY> ${option.Forbidden}</div>`
+      html += `</div>`//end off fixed 1 forbidden //
+      html += `  <div class="Fixed2">`//fixed cost 2 have fixed chakra like evovve nin etc //
+      html += `<div Class=quarter2>can be quartered?: </div>`
+      html += `<div Class=YN>${option.FixedChakra}</div>`
+      html += `</div>` //end off fixed 2 forbidden //
+      html += `</div>`//end off fq fixed cost boxes
+      html +=`<div class="Item-container"onclick="">`//updateViewItem() put back in yo onclick when your done //
+      html +=`<div class="ItemTg1">Item1</div>`
+      html +=`<div class="item1"onclick="">Item 1 EQ</div>` 
+      html +=`<div class="ItemTg2">Item2</div>`
+      html +=`<div class="Item2">Item 2</div>`
+      html +=`<div class="ItemTg3">item3</div>`
+      html +=`<div class="Item3">Item 3</div>`
+      html +=`<div class="ItemTg"></div>`
+      html +=`<div class="ItemEq"></div>` 
+            //lvl input and lvl defined //
+            html += `<div class="LVLbox">`
+            html += `<div class="button">LVL</div>`
+            html+=`<input type="text" id="LVL" /><br> <input class="button" type="button" onClick="multiplyBy(this)" Value="LVL" />`
+                            
+            // html+=`<div ID="result"> </div>`
+            html += `</div>`        //end off lvl defined //
 
-   html +=`<div class="Item-container"onclick="">`//updateViewItem() put back in yo onclick when your done //
-   html +=`<div class="ItemTg1">Item1</div>`
-   html +=`<div class="item1"onclick="">Item 1 EQ</div>` 
-   html +=`<div class="ItemTg2">Item2</div>`
-   html +=`<div class="Item2">Item 2</div>`
-   html +=`<div class="ItemTg3">item3</div>`
-   html +=`<div class="Item3">Item 3</div>`
-   html +=`<div class="ItemTg"></div>`
-   html +=`<div class="ItemEq"></div>` 
-   html += `</div>`;
-    //end off items//
+      html += `</div>`;//end off items//</div>`
+      html += `</div>`  //end off Botox//     
+
+   
 
                              //bloodline//
             html += `<div class="BL-containers">` //bl container//
