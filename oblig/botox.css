@@ -1,9 +1,9 @@
 .botox{
     display: grid;
     position: absolute;
-    width:70vw;
-    top:30vh;
-    left:23vw;
+    width:89vw;
+    top:23.4vh;
+    left:9.5vw;
 }
 
 
@@ -11,7 +11,7 @@
     /* lvl box*/
     display: grid;
     position: absolute;
-    bottom:30vh;
+    
     height:7.5vh;
     width:49.9vw;
     
@@ -39,7 +39,7 @@
 .BL-containers{
     display: grid;
     position: absolute;
-    top:40vh;
+    top:0vh;
    height:23vh;
     width:39.3vw;
     
