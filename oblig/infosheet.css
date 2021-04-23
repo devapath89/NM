@@ -2,16 +2,18 @@
 .Ninjainfo1-containers{
     display: grid;
     position: absolute;
+    top:2vh;
     width:98%;
-    height:40%;
+    height:40vh;
     left:1vw;
   }
   /*end off draw out div*/ 
 .ninjaImg{ /*the img*/
-    top:2vh;
     display:grid;
     position: absolute;
   border:2px solid black;
+  height:100%;
+  width:100%;
      }
      img { /*img scaling*/
       width: 100%;
