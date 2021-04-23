@@ -3,7 +3,7 @@
     display: grid;
     position: absolute;
     width:98%;
-    height:25%;
+    height:40%;
     left:1vw;
   }
   /*end off draw out div*/ 
@@ -48,7 +48,7 @@
     background-color: blueviolet;
     display: grid;
     position: absolute;
-    bottom:60vh;
+    top:0vh;
     width:9vw;
     height:7.4vh;
   
