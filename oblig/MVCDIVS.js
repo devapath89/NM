@@ -5,7 +5,7 @@ function makeDivs(){
         //mellomlagre id osv i hver sin - dollare ut i viewloop
       for(let option of Ninjas){ //gir muligheten til og dra ut single string av en flere objektet arrey
             if(option.NinjaName == selectedNinja){
-html += `<div class="Ninjasheet1-containers">` //ninja 1 sheet1 tabel with lots off containers//
+
               // Ninija spesifier //
             html += `<div class="Ninjainfo1-containers">`
 
@@ -213,7 +213,7 @@ html += `<div class="Primestat-containers">`//Prime stat container //
                 html += `</div>`//end of stat related container 
                
                html += `</div>` //end off sheet//      
-           html += `</div>`; //end off ninjasheet 1 + //
+      
         selectResult.innerHTML =  html;
 
     }

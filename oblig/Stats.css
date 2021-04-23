@@ -1,20 +1,18 @@
 
  .qq {display: grid;
-position: relative;
+  position: absolute;
 background-color: darkslateblue;
 justify-content: center;
-right:147.2vw;
-top:-1.224vh;
+top:22vh;
 width:08.9vw;
 height:5vh;
 border:1px solid black;
 }
  .used{display: grid;
-  position: relative;
+    position: absolute;
   background-color: darkslateblue;
   justify-content: center;
-  right:147.2vw;
-  top:-1.2vh;
+  top:22vh;
   width:08.9vw;
   height:5vh;
   border:1px solid black;
@@ -24,17 +22,16 @@ border:1px solid black;
 /*all primary stats*/
 .Primestat-containers{
     display: grid;
-    position: relative;
+      position: absolute;
 }
 .The-Stats{
   
     border:1px solid black;
     display: grid;
-    position: relative;
+      position: absolute;
     justify-content: center;
     background-color: blue;
-     right:138.3vw;
-     top:-1.19vh;
+    top:30vh;
      height:07.13vh;
      width:49.9vw;
      border-bottom: 2px solid black;
@@ -42,7 +39,7 @@ border:1px solid black;
     }
     .statnames{
         justify-content: center;
-        position:relative;
+         position: absolute;
         display:grid;
         grid-template-columns:2vw;
         grid-column:auto;
@@ -51,148 +48,149 @@ border:1px solid black;
        justify-items: center;
         }
 
-        .txt {
-        background-color:turquoise;
-        
-        justify-content: center;
-        position:relative;
-        display:grid;}
-
-
+ 
+.txt{
+  display: grid;
+  justify-content: center;
+  right:130vw;
+  bottom:16.19vh;
+  /* width:;
+  height:; */
+ 
+}
 
 
 /* The inputt stats */
 .input-container{
     background-color: teal;
-    position:relative;
+     position: absolute;
        border:solid 1px black; 
      justify-content: center;
-     right:188.3vw;
-     bottom:16.19vh;
+     
      width:8.8vw;
      height:07vh;
     
      }
      #inn{
         display: grid;
-        position: relative;
+          position: absolute;
         }
 .input-containers {
     display: grid;
+    position: absolute;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
    }
    .input-containers{
     display: grid;
+    position: absolute;
    
-    right:97vw;
-     top:3vh;
      width:09.5vw;
    }
 .s01{  
     border-bottom: 1px solid black; 
-    position:static;
+      position: absolute;
    background-color:teal;
     display:grid;
   }
 .s02{border-bottom: 1px solid black; 
-    position:static;
+      position: absolute;
   background-color:teal;
     display:grid;
    
    }
 .s03{
     border-bottom: 1px solid black;
-     position:static;
+       position: absolute;
   background-color:teal;
      display:grid;
    }
 .s04{    border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
    background-color:teal;
     display:grid;
    }
 .s05{    border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
   background-color:teal;
     display:grid;
     
  }
 .s06{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
   background-color:teal;
     display:grid;
     
 }
 .s07{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
   background-color:teal;
     display:grid;
    }
 .s08{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     background-color:teal;
     display:grid;
   }
 .s09{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     background-color:teal;
     display:grid;
   }
 .s10{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     display:grid;
     background-color:teal;
  
   }
 .s11{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     background-color:teal;
     display:grid;
 }
 .s12{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     display:grid;
     background-color:teal;
 }   
 .s13{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     display:grid;
     background-color:teal;
     ;}
 .s14{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     background-color:teal;
     display:grid;
    }
  
 .s15{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     background-color:teal;
     display:grid;
 } 
 .s16{ border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     background-color:teal;
     display:grid;
 }
 .s17{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     background-color:teal;
     display:grid;
    }
 .s18{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     background-color:teal;
     display:grid;
     }
 .s19{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     display:grid;
    }
 .s20{border-bottom: 1px solid black;
-    position:static;
+      position: absolute;
     display:grid;
    } 
 

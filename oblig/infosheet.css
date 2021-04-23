@@ -1,19 +1,17 @@
 /* everything in the ninjainfo class. what we use to move them around  */
 .Ninjainfo1-containers{
     display: grid;
-    position: static;
-    width:25%;
+    position: absolute;
+    width:98%;
     height:25%;
+    left:1vw;
   }
   /*end off draw out div*/ 
 .ninjaImg{ /*the img*/
+
     display:grid;
-    position: relative;
-    left:1.3vw;
-    bottom:36.33vh;
-    width:9.03vw;
-    height: 17.5vh;
-    border:2px solid black;
+    position: absolute;
+  border:2px solid black;
      }
      img { /*img scaling*/
       width: 100%;
@@ -22,9 +20,8 @@
 
     .theninja{ /*ninja ID and ninjaName Tags container */
         display: grid;
-        position: relative;
-        left:1vw;
-        bottom:28.7vh;
+        position: absolute;
+      
         width:49.9vw;
         height:7.5vh;
         
@@ -35,11 +32,10 @@
 
 .position{
     display: grid;
-  position: relative;
+  position: absolute;
   background-color: brown;
   justify-content: center;
-  left:1vw;
-  bottom:36.4vh;
+ 
   width:39.4vw;
   height: 7.5vh;
   }
@@ -49,9 +45,8 @@
   .er{ /*cost and chakra container */
     background-color: blueviolet;
     display: grid;
-    position: relative;
-    bottom:50.982vh;
-    left:1.3vw;
+    position: absolute;
+   
     width:9vw;
     height:7.4vh;
   
@@ -59,16 +54,16 @@
   .LVLbox { 
     /* lvl box*/
     display: grid;
-    position: relative;
-    bottom:51.1vh;
+    position: absolute;
+  
     height:7.5vh;
     width:49.9vw;
-    left:1vw;
+    
     
   }
   .button{/* the lvl button*/
     display: grid; 
-    position:static;
+      position: absolute;
     background-color: blue;
    
     
@@ -78,7 +73,7 @@
   }
   #LVL {/* the lvl input*/
     display: grid; 
-    position:static;
+      position: absolute;
     background-color: blue;
     width:inherit;
     border: 2px solid black;
@@ -89,10 +84,8 @@
 
   .Penalty-containers { /*penalty container */
     display: grid;
-    position: relative;
+    position: absolute;
     height:10vh;
-    left:1vw;
-    bottom:61.44vh;
     font-size:3vh;
     width:39.4vw;} /*end off the penalty container*/
 

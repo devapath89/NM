@@ -6,51 +6,50 @@
  .Item-container {
    display: grid;
    background-color: darkgreen;
-   position: relative;
-   right:138.2vw;
-   bottom:48.78vh;
+   position: absolute;
+   top:60vh;
    width:49.9vw;
    height:15.3vh;
    border-bottom: 1px solid black;
  }
 .item1{
   display: grid;
-  position: static;
+    position: absolute;
 border-bottom: 1px solid black;
 }
 .ItemTg1{
   display: grid;
-  position: static;
+    position: absolute;
   border-bottom: 1px solid black;
 }
 .ItemTg2{
   display: grid;
-  position: static;
+    position: absolute;
 
 }
 .Item2{
   display: grid;
-  position: static;
+    position: absolute;
 ;
 }
 .ItemTg3{
   display: grid;
-  position: static;
+    position: absolute;
 
 }
 .Item3{
   display: grid;
-  position: static;
+    position: absolute;
  border-bottom: 1px solid black; 
 }
 .ItemTg{
   display: grid;
-  position: static;
+    position: absolute;
   border-bottom: 1px solid black;
 }
 .ItemEq{
 display: grid;
-  position: static;
+    position: absolute;
 
 }
  
