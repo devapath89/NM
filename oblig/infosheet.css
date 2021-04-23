@@ -2,8 +2,8 @@
 .Ninjainfo1-containers{
   align-items:stretch;
     position: absolute;
-    width:inherit;
-    height:inherit;  
+    width:100vw;
+    height:28%;  
   }
   /*end off draw out div*/ 
 .ninjaImg{ /*the img*/

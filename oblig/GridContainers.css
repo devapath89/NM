@@ -20,7 +20,7 @@
 
 .Ninjainfo1-containers {
   display:inline-grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
   grid-template-rows: 50%r 50%;
   gap: 0px 0px;
   grid-template-areas:
