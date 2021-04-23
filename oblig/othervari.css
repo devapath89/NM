@@ -98,12 +98,14 @@ width:39.4vw;
   width:24.85vw;
   height: inherit;
   justify-content: center;
+  border-left: 1px solid black;
 }
 .Seal{
   display: grid;
   background-color: crimson;
   position: absolute;
-  left:10vw;
+  left:24.86vw;
+  width:24.85vw; 
   justify-content: center;
   height: inherit;
 }
