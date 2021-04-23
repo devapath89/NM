@@ -1,7 +1,7 @@
 .Ninjasheet1-containers {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 01fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-template-areas:
     "Ninjainfo1-containers Ninjainfo1-containers Ninjainfo1-containers Ninjainfo1-containers"
@@ -27,6 +27,8 @@
     "ninjaImg theninja position"
     "er LVLbox Penalty-containers";
   grid-area: Ninjainfo1-containers;
+
+
 
 }
 .botox {

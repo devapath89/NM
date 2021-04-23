@@ -2,9 +2,10 @@
 .Ninjainfo1-containers{
    
     position: absolute;
-    width:auto;
-    height:auto;
-   
+    width:100%;
+    height:100%;
+    grid-row: row-start / span row-span-value;
+    grid-column: col-start / span col-span-value;
   
     
   }
