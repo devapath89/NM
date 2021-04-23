@@ -6,9 +6,8 @@
     display: grid;
     position: absolute;
     background-color: aqua;
-  
-    width:32.7vw;
-    height:7vh;
+  width:inherit;
+    height:inherit;
   } 
 
 
