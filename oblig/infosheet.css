@@ -2,10 +2,7 @@
 .Ninjainfo1-containers{
     display: grid;
     position: absolute;
-    top:2vh;
-    width:inherit;
-    height:inherit;
-    left:1vw;
+    
   }
   /*end off draw out div*/ 
 .ninjaImg{ /*the img*/
