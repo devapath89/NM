@@ -3,8 +3,8 @@
     display: grid;
     position: absolute;
     top:2vh;
-    width:98%;
-    height:40vh;
+    width:inherit;
+    height:inherit;
     left:1vw;
   }
   /*end off draw out div*/ 
@@ -12,8 +12,8 @@
     display:grid;
     position: absolute;
   border:2px solid black;
-  height:100%;
-  width:100%;
+  width:inherit;
+  height:inherit;
      }
      img { /*img scaling*/
       width: 100%;
@@ -24,8 +24,8 @@
         display: grid;
         position: absolute;
         top:0vh;
-        width:100%;
-        height:100%;
+        width:inherit;
+        height:inherit;
        
         
       }
@@ -35,8 +35,8 @@
         background-color:hotpink;
         display: grid;
          position: absolute;
-         width:100%;
-         height:100%;
+         width:inherit;
+  height:inherit;
       border-bottom: 1px solid black;
         
       }
@@ -47,8 +47,8 @@
         background-color:hotpink;
         display: grid;
          position: absolute;
-         width:100%;
-        height:100%;
+         width:inherit;
+         height:inherit;
     
        } /*Ninja name end */
 /*posstion tag */
@@ -59,8 +59,8 @@
   padding:auto;
   background-color: brown;
   justify-content: center;
-  width:100%;
-  height:100%;
+  width:inherit;
+  height:inherit;
   }
   /*posstion tag end */
 
@@ -70,8 +70,8 @@
     display: grid;
     position: absolute;
     top:0vh;
-  width:100%;
-  height:100%;
+    width:inherit;
+    height:inherit;
   
   }/*end of cost and chakra container  */
   
@@ -102,17 +102,26 @@
       position: absolute;
     background-color: blue;
     height:inherit;
-    
+    width:inherit;
     border: 2px solid black;
     
   
   }
-  .LVL {/* the lvl input*/
+  .LVL{
+    display: grid; 
+    position: absolute;
+  background-color: blue;
+  height:inherit;
+  
+  border: 2px solid black;
+  }
+  #LVL {/* the lvl input*/
     display: grid; 
       position: absolute;
     background-color: blue;
     border: 2px solid black;
     height:inherit;
+    width:inherit;
   }
 
   /* blood line contaier */
