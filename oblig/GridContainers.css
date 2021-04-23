@@ -7,7 +7,7 @@
     "Ninjainfo1-containers Ninjainfo1-containers Ninjainfo1-containers Ninjainfo1-containers"
     "Ninjainfo1-containers Ninjainfo1-containers Ninjainfo1-containers Ninjainfo1-containers"
     "abg Seal Seals TB"
-    "fq Item-container Item-container BL-containers"
+    "botox botox botox botox"
     "input-container The-Stats The-Stats Efficantcy"
     "input-containers txt Stats Effi-container"
     "input-containers txt Stats Effi-container"
@@ -28,7 +28,15 @@
     "er LVLbox Penalty-containers";
   grid-area: Ninjainfo1-containers;
 }
-
+.botox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr ;
+  gap: 0px 0px;
+  grid-template-areas:
+  "fq Item-container Item-container BL-containers";
+  grid-area: botox;
+}
 .position { grid-area: position; }
 
 .theninja {
@@ -101,6 +109,7 @@
 .offpos { grid-area: offpos; }
 
 .pen { grid-area: pen; }
+
 
 .fq {
   display: grid;
