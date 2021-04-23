@@ -23,9 +23,9 @@
     .theninja{ /*ninja ID and ninjaName Tags container */
         display: grid;
         position: absolute;
-        top:vh;
+        top:10.1vh;
         width:100%;
-        height:50%;
+        height:100%;
        
         
       }
@@ -56,12 +56,11 @@
 .position{
     display: grid;
   position: absolute;
+  padding:auto;
   background-color: brown;
   justify-content: center;
- top:2vh;
- left:-6vw;
-  width:39.4vw;
-  height: 7.5vh;
+  width:100%;
+  height:100%;
   }
   /*posstion tag end */
 
@@ -71,8 +70,8 @@
     display: grid;
     position: absolute;
     top:0vh;
-    width:9vw;
-    height:7.4vh;
+  width:100%;
+  height:100%;
   
   }/*end of cost and chakra container  */
   
@@ -83,10 +82,8 @@
   .Penalty-containers { /*penalty container */
     display: grid;
     position: absolute;
-    bottom:44.6vh;
-    left:-6.1vw;
-    height:9.6vh;
     font-size:3vh;
-    width:39.4vw;
+    width:100%;
+  height:100%;
   } /*end off the penalty container*/
 

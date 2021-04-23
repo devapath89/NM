@@ -3,6 +3,8 @@
 .Cost{
 display: grid;
   position: absolute;
+  width:100%;
+  height:100%;
 justify-content: center;
 font-weight: bold;
 font-size:2vh;
@@ -10,6 +12,8 @@ font-size:2vh;
 .chakra{
  display: grid; 
   position: absolute;
+  width:100%;
+  height:100%;
  font-weight: bold;
  justify-content: center;
  font-size:2vh;
@@ -18,38 +22,42 @@ font-size:2vh;
 
  .is-off{ /* position penalty */
 display: grid;
-  position: absolute;
+position: absolute;
+width:100%;
+  height:100%;
 background-color: aquamarine;
 justify-content: center;
 border:1px solid black;
-width:39.4vw;
+
  }
  .Y-N{/* position penalty */
 display: grid;
 position: absolute;
-top:1vh;
+width:100%;
+  height:100%;
 background-color: aquamarine;
 justify-content: center;
 border:1px solid black;
-width:39.4vw;
+
  }
  .offpos{/* position penalty */
 display:grid;
 position: absolute;
-top:2vh;
+width:100%;
+  height:100%;
 background-color: aquamarine;
 justify-content: center;
 border:1px solid black;
-width:39.4vw;
+
  }
  .Pen{/* position penalty */
    display: grid;
     position: absolute;
-    top:3vh;
-   background-color: aquamarine;
+  background-color: aquamarine;
    justify-content: center;
    border:1px solid black;
-   width:39.4vw;
+   width:100%;
+  height:100%;
 
  }
 /* position penalty end  */
