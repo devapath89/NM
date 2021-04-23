@@ -3,15 +3,11 @@
    
     position: absolute;
     width:inherit;
-    height:inherit;
-    grid-row: row-start / span row-span-value;
-    grid-column: col-start / span col-span-value;
-  
-    
+    height:inherit;  
   }
   /*end off draw out div*/ 
 .ninjaImg{ /*the img*/
-    display:grid;
+    
     position: absolute;
   border:2px solid black;
   width:inherit;
@@ -23,7 +19,7 @@
     }/*end off img */
 
     .theninja{ /*ninja ID and ninjaName Tags container */
-        display: grid;
+       
         position: absolute;
         top:0vh;
         font-size:3vh;
@@ -36,7 +32,7 @@
       .ID { /*ninja ID*/
   
         background-color:hotpink;
-        display: grid;
+
         position: absolute;
         width:inherit;
       height:inherit;
@@ -49,7 +45,7 @@
       /*ninja Name   */
       .NinjaName{
         background-color:hotpink;
-        display: grid;
+    
          position: absolute;
          width:inherit;
          height:inherit;
@@ -58,7 +54,7 @@
 /*posstion tag */
 
 .position{
-    display: grid;
+   
   position: absolute;
   padding:auto;
   background-color: brown;
@@ -72,7 +68,7 @@
   
   .er{ /*cost and chakra container */
     background-color: blueviolet;
-    display: grid;
+   
     position: absolute;
     top:0vh;
     width:inherit;
@@ -86,8 +82,7 @@
 
 
   .Penalty-containers { /*penalty container */
-    display: grid;
-    position: absolute;
+   position: absolute;
     font-size:3vh;
     width:100%;
   height:100%;
@@ -95,7 +90,6 @@
 
   .LVLbox { 
     /* lvl box*/
-    display: grid;
     position: absolute;
     font-size:3vh;
     height:100%;
@@ -103,8 +97,7 @@
     
     
   }
-  .button{/* the lvl button*/
-    display: grid; 
+  .button{/* the lvl button*/ 
       position: absolute;
     background-color: blue;
     height:inherit;
@@ -113,16 +106,14 @@
     font-size:3vh;
   
   }
-  .LVL{
-    display: grid; 
+  .LVL{ 
     position: absolute;
   background-color: blue;
   height:inherit;
   font-size:auto;
   border: 2px solid black;
   }
-  #LVL {/* the lvl input*/
-    display: grid; 
+  #LVL {/* the lvl input*/ 
       position: absolute;
     background-color: blue;
     border: 2px solid black;
