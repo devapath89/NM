@@ -21,7 +21,8 @@
     .theninja{ /*ninja ID and ninjaName Tags container */
         display: grid;
         position: absolute;
-      
+        top:7vh;
+        right:5.9vw;
         width:49.9vw;
         height:7.5vh;
         
