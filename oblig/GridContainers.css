@@ -27,6 +27,7 @@
     "ninjaImg theninja position"
     "er LVLbox Penalty-containers";
   grid-area: Ninjainfo1-containers;
+
 }
 .botox {
   display: grid;
