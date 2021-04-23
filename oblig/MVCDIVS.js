@@ -110,7 +110,7 @@ function makeDivs(){
 //             html += `<div class=Atk>Attack</div>`
 //             html += `<div class=Strike>CriticalStrike</div>`
 //             html += `<div class=Hit>Critical Hit</div>`
-//             html += `<div class=roll>Reroll</div>`
+//             html += `<div class=Roll>Reroll</div>`
 //             html += `<div class=Focus>Focus</div>`
 //             html += `<div class=Burst>Focus Burst</div>`
 //             html += `<div class=Range>Focus Range</div>`
