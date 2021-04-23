@@ -2,9 +2,11 @@
 .Ninjainfo1-containers{
     display: grid;
     position: absolute;
-    justify-content:center;
-  width:4fr;
-    height:2fr;
+    width:inherit;
+    height:inherit;
+    justify-self:stretch;
+   
+  
     
   }
   /*end off draw out div*/ 
