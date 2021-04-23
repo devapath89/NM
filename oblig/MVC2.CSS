@@ -24,15 +24,17 @@ input[type=number] {
 .Ninjasheet1-containers{
   display: grid;
   position: absolute;
-  width:98%;
-  height:98%;
+  width:100vw;
+  height:100vh;
+  justify-self: stretch;
 }
 /*div that draws out stuff*/
 #selectResult {
   display: grid;
   position: absolute;
-  width:inherit;
-  height:inherit;
+  width:97%;
+  height:97%;
+  justify-self: stretch;
   }
   #hovedSide {
     display: grid;

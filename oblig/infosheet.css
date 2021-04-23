@@ -1,10 +1,9 @@
 /* everything in the ninjainfo class. what we use to move them around  */
 .Ninjainfo1-containers{
-    display: grid;
+   
     position: absolute;
-    width:inherit;
-    height:inherit;
-    justify-self:stretch;
+    width:auto;
+    height:auto;
    
   
     
