@@ -1,0 +1,71 @@
+.StatNames{
+  justify-content: center;
+          position: absolute;
+          width:100%;
+          height:100%;
+          text-align:center;
+         
+          
+        }
+    div >.StatNames:first-child {
+      width:100%;
+      background-color: cornflowerblue;
+     height:100%;
+      font-size:2.2vh;
+      border: 1px solid black;
+    }
+    div .StatNames:nth-of-type(2){
+      top:2.1vh;
+      background-color: cornflowerblue;
+      width:100%;
+     height:100%;
+      font-size:2.2vh;   
+       border: 1px solid black;;
+    }
+    div .StatNames:nth-of-type(3){
+     top:4.4vh;
+     font-weight: bold;
+    background-color: cornflowerblue;
+      width:100%;
+     height:100%;
+     border: 1px solid black;
+      font-size:2.2vh;
+      
+    }
+    div .StatNames:nth-of-type(4){
+      top:6.6vh;
+      font-weight: bold;
+      width:100%;
+     height:100%;
+     border: 1px solid black;;
+      font-size:2.2vh;
+      background-color: cornflowerblue;
+    }
+    div .StatNames:nth-of-type(5){
+     top:8.9vh;
+     width:100%;
+     height:100%;
+      font-size:2.2vh;
+      border: 1px solid black;;
+      background-color: cornflowerblue;
+    }
+    div .StatNames:nth-of-type(6){
+     top:11.1vh;
+      width:100%;
+      height:100%;
+      font-size:2.2vh;
+      background-color: cornflowerblue; 
+      border: 1px solid black;;
+    }
+   
+    .Atk,.Strike,.Hit,.Re-Roll,.Focus,.Focus-Burst,.Focus-Range,.Buki-Boost,.Buki-Rec,.Gen-Act,.Gen-Mastery,.Gen-Rec,.Endu{
+      background-color: burlywood;
+      display: grid;
+      text-align: center;
+      position:absolute;
+          width:100%;
+          height:100%;
+          border: 1px solid black;
+        }
+        
+    

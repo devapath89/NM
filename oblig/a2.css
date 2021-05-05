@@ -1,0 +1,81 @@
+.a2{
+  display: inline-grid;
+  position: absolute;
+  top:27vh;
+  height:10%;
+  width:100%;
+  font-size: 1vw;
+  text-align: center;
+}
+.bonusstat{
+  top:0.1vh;
+    position: absolute;
+    width: 100%;
+    height:75.2%;
+  }
+  
+  
+   .qq {display: grid;
+    position: absolute;
+  background-color: darkslateblue;
+  justify-content: center;
+  
+  width: 100%;
+    height:100%;
+  border:1px solid black;
+  }
+   .used{display: grid;
+      position: absolute;
+    background-color: darkslateblue;
+    justify-content: center;
+    
+    width: 100%;
+    height:100%;;
+    border:1px solid black;
+  }
+ 
+  
+  /* blood line contaier */
+
+  
+  .BL-container { 
+    display: grid;
+    position: absolute;
+    width: 100%;
+    height:76.9%;
+    left:0vw;
+    top:0.13vh;
+   background-color: red;
+   justify-content: center;
+  
+  }
+  .bloodline{
+    position: relative;
+      border: 1px solid black;
+    background-color: red;
+   
+    
+   
+  }
+  
+  .bloodlinelvl{
+    position: relative;
+    border: 1px solid black;
+    background-color: red;
+    
+  }
+  
+  .Blood-line{
+    position: relative;
+    border: 1px solid black;
+    background-color: red;
+   
+    
+  }
+  
+  .Blood-Line-LvL{
+    background-color: rgba(255, 0, 0, 0.411);
+    width:100%;
+    height:100%;
+    border: 2px solid black;
+  }

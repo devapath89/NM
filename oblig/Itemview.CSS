@@ -6,10 +6,12 @@
     grid-template-rows: 1fr 1fr 1fr;
     border: dotted hotpink;
   width:400px;
+  top:500vh;
 }
 
 #Equip {
     width:5vw;
+    top:500vh;
 }
 
 /* Equip item*/

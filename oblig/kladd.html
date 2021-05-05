@@ -163,16 +163,26 @@ for(stat in model.DemStats){
        
 //the DMG output//
 
-html += `<div class="Dmgout-containers">` 
-html += `<div Class=avrdmg>Avrage dmg :in</div>`
-html += `<div Class=D-R>Damage range :in</div>`
-html += `<div Class=avrdmgcritt>Avrage dmg on critt :in</div>`
-html += `<div Class=Dmgran>Dmg range :in</div>`
-html += `<div Class=low-dmg>low dmg in</div>`
-html += `<div Class=high-dmg>high dmg in</div>`
-html += `<div Class=avrcrit-dmg>avrage critt in</div>`
-html += `<div Class=dmg-rng-critt> dmg range critt in</div>`
-html += `<div Class=low-critt>low critt in</div>`
-html += `<div Class=high-critt>high critt inn</div>`
-html += `</div>`; //end off dmg out //
+<div class="Dmgout-containers">
+    <div class="r21">
+      <div class="avrdmg"></div>
+      <div class="D-R"></div>
+    </div>
+    <div class="dmg">
+      <div class="Dmgran"></div>
+      <div class="lowhigh"></div>
+    </div>
+    <div class="crittrange">
+      <div class="avrdmgcritt"></div>
+      <div class="dmg-rng-critt"></div>
+    </div>
+    <div class="crittdmg">
+      <div class="avrcrit-dmg"></div>
+      <div class="lowcrit-higcritt">
+        <div class="high-critt"></div>
+        <div class="low-critt"></div>
+      </div>
+    </div>
+  </div>
+
 

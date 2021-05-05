@@ -1,98 +1,10 @@
 
 
-.Cost{
-display: grid;
-  position: absolute;
-  width:100%;
-  height:100%;
-justify-content: center;
-font-weight: bold;
-}
-.chakra{
- display: grid; 
-  position: absolute;
-  width:100%;
-  height:100%;
- font-weight: bold;
- justify-content: center;
-
-}
+ 
 
 
- .is-off{ /* position penalty */
-display: grid;
-position: absolute;
-width:100%;
-  height:100%;
-background-color: aquamarine;
-justify-content: center;
-border:1px solid black;
-
- }
- .Y-N{/* position penalty */
-display: grid;
-position: absolute;
-width:100%;
-  height:100%;
-background-color: aquamarine;
-justify-content: center;
-border:1px solid black;
-
- }
- .offpos{/* position penalty */
-display:grid;
-position: absolute;
-width:100%;
-  height:100%;
-background-color: aquamarine;
-justify-content: center;
-border:1px solid black;
-
- }
- .Pen{/* position penalty */
-   display: grid;
-    position: absolute;
-  background-color: aquamarine;
-   justify-content: center;
-   border:1px solid black;
-   width:100%;
-  height:100%;
-
- }
-/* position penalty end  */
+   
 
 
-    /* seal  container   */
-    .Seals{
-      grid-template-columns: 1fr 1fr;
-      display: grid;
-      position: absolute;
-      top:16.9vh;
-      left:9.5vw;
-    height:6vh;
-    width:49.7vw;
-    justify-content: center;
-    font-size:3vh;
-    border: 1px solid black;
-    }/*end off seal tag */
-.SealTag{/* seal tag box */
-  background-color: crimson;
-  display: grid;
-  position: absolute;
-  width:24.85vw;
-  height: inherit;
-  justify-content: center;
-  border-left: 1px solid black;
-}
-.Seal{
-  display: grid;
-  background-color: crimson;
-  position: absolute;
-  left:24.86vw;
-  width:24.85vw; 
-  justify-content: center;
-  height: inherit;
-}
-/*end off seal container */
 
 

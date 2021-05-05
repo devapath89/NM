@@ -1,0 +1,110 @@
+.Dmgout-containers{
+   text-align: center;
+   font-size:1.4vw;
+   font-weight:bold;
+    position: absolute;
+    width:100%;
+    height:17%;
+  top:82.8vh;
+}
+.r21{
+
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.AvrageDMG{
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.D-R{
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.DMG{
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.AvrageDMG-out{
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.Low-High-DMG{
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.Low-DMG{
+    background-color: lightgreen;
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.High-DMG{
+    background-color: darkred;
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.Crit-DMG-Tag{
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.Average-DMG-on-Crit{
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.Damage-Range-with-Critical-Hit{
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.Critt-DMG-Out{
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.Average-DMG-on-Crit-Out{
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.lowcrit-higcritt{
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.Low-critt-DMG{
+    position:Relative;
+    background-color: silver;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}
+.High-critt-DMG{
+    background-color: gold;
+    position:Relative;
+    width:100%;
+    height:100%;
+    border: 1px solid black;
+}

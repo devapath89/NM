@@ -1,57 +1,114 @@
 /* everything in the ninjainfo class. what we use to move them around  */
 .Ninjainfo1-containers{
-  align-items:stretch;
     position: absolute;
-    width:100vw;
-    height:28%;  
+   width:100%;
+   height:100%;
+   
+   
   }
   /*end off draw out div*/ 
-.ninjaImg{ /*the img*/
-    
-    position: absolute;
-  border:2px solid black;
-  width:100%;
-  height:100%;
-     }
-     img { /*img scaling*/
-      width: 100%;
-      height: 100%;
-    }/*end off img */
 
-    .theninja{ /*ninja ID and ninjaName Tags container */
+   .a4{
+    position: absolute;
+    width:45.99%;
+    height:20%;
+    left:10vw;
+  }
+  .theninja{ /*ninja ID and ninjaName Tags container */
        
+     position: absolute;
+     font-size: 1.6vw;
+     width:100%;
+     height:100%;
+     
+      
+     }
+     
+     .hei{
+       background-color: aqua;
+      display: grid;
+      position: absolute;
+      height:100%;
+      width:100%;
+     top:0vh;
+     
+      
+    }
+     /*ninja ID and ninjaName Tags container end  */
+     .ID { /*ninja ID*/
+       left:0.1vw;
+     background-color:hotpink;
+     position: absolute;
+     height: 100%;
+       width:100%;
+     font-size: inherit;
+     border-bottom: 1px solid black;
+    
+     
+     }
+     
+     /*ninja ID end */
+     /*ninja Name   */
+     .NinjaName{
+      left:0.1vw;
+       border-top:2px solid black;
+       background-color:hotpink;
+       height: 100%;
+       width:100%;
         position: absolute;
-        top:0vh;
-        font-size:3vh;
+        
+     
+   
+      } /*Ninja name end */
+
+
+      .LVLbox{
+        left:0.1vw;
+        position: absolute;
         width:100%;
         height:100%;
-       
-        
-      }
-      /*ninja ID and ninjaName Tags container end  */
-      .ID { /*ninja ID*/
-  
-        background-color:hotpink;
-
-        position: absolute;
-        width:100%;
-  height:100%;
-      font-size: inherit;
-      border-bottom: 1px solid black;
-        
+        top:0.1vh;
       }
       
-      /*ninja ID end */
-      /*ninja Name   */
-      .NinjaName{
-        background-color:hotpink;
-    
-         position: absolute;
-         width:100%;
-  height:100%;
-    
-       } /*Ninja name end */
-/*posstion tag */
+      .button{/* the lvl button*/ 
+       position: absolute;
+     background-color: blue;
+     width:100%;
+     height:100%;
+     border: 2px solid black;
+     font-size: 1.4vw;
+     
+
+   
+   }
+   .LVL{ 
+    width:100%;
+    height:100%;
+     position: absolute;
+     text-align: center;
+     font-size:3vh;
+   background-color: blue;
+   ;
+   border: 2px solid black;
+   }
+   #LVL {/* the lvl input*/ 
+       position: absolute;
+     background-color: blue;
+     border: 2px solid black;
+     
+   }
+
+
+  
+  /* a3 container upper right */
+  .a3{
+   position: absolute;
+   width:100%;
+   height:100%;
+  }
+
+
+       /*posstion tag */
 
 .position{
    
@@ -61,64 +118,66 @@
   justify-content: center;
   font-size:3vh;
   width:100%;
-  height:100%;
+   height:100%;
+   left:0vw;
+  
+ 
   }
   /*posstion tag end */
 
   
-  .er{ /*cost and chakra container */
-    background-color: blueviolet;
-   
-    position: absolute;
-    top:0vh;
-    width:100%;
-  height:100%;
-    font-size:3vh;
-  
-  }/*end of cost and chakra container  */
-  
 
-  
 
 
   .Penalty-containers { /*penalty container */
    position: absolute;
-    font-size:3vh;
+   font-size:1.3vw;
+    font-weight: bolder;
     width:100%;
-  height:100%;
+   height:100%;
+      left:0vw; 
+   
   } /*end off the penalty container*/
-
-  .LVLbox { 
-    /* lvl box*/
+  .is-off{ /* position penalty */
+    display: grid;
     position: absolute;
-    font-size:3vh;
-    height:100%;
     width:100%;
+    height:100%;
+    background-color: aquamarine;
+    justify-content: center;
+    border:1px solid black;
     
-    
-  }
-  .button{/* the lvl button*/ 
-      position: absolute;
-    background-color: blue;
-    height:inherit;
-    width:inherit;
-    border: 2px solid black;
-    font-size:3vh;
-  
-  }
-  .LVL{ 
+     }
+     .Y-N{/* position penalty */
+    display: grid;
     position: absolute;
-  background-color: blue;
-  height:inherit;
-  font-size:auto;
-  border: 2px solid black;
-  }
-  #LVL {/* the lvl input*/ 
-      position: absolute;
-    background-color: blue;
-    border: 2px solid black;
-    height:inherit;
-    width:inherit;
-  }
+    width:100%;
+    height:100%;
+    background-color: aquamarine;
+    justify-content: center;
+    border:1px solid black;
+    
+     }
+     .offpos{/* position penalty */
+    display:grid;
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: aquamarine;
+    justify-content: center;
+    border:1px solid black;
+    
+     }
+     .Pen{/* position penalty */
+       display: grid;
+        position: absolute;
+      background-color: aquamarine;
+       justify-content: center;
+       border:1px solid black;
+       width:100%;
+   height:100%;
+     }
+    /* position penalty end  */
 
-  /* blood line contaier */
+ 
+

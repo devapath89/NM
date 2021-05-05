@@ -1,0 +1,111 @@
+
+
+.txt{
+  text-align: center;
+display: grid;
+position: absolute;
+justify-content: center;
+background-color: red;
+bottom:52.16vh;
+width:100%;
+height:85.1%;   
+font-size:2.3vh;
+font-weight: bold;
+}     
+
+.Taijutsu-txt{
+  border: 1px solid black;
+  position:relative;
+
+}
+.Ninjutsu-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Bukijutsu-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Stamina-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Elemental-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Genjutsu-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Attack-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Crittical-strike-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Crittical-hit-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Re-roll-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Focus-pew-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Focus-burst-pew-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Focus-range-pew-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Bukijutsu-Boost-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Bukijutsu-Recovery-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Genjutsu-Activation-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Genjutsu-Mastery-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+}
+.Genjutsu-Recovery-txt{
+  border: 1px solid black;
+  position:relative;
+ 
+ 
+}
+.Endurance-txt{
+  position:relative;
+  border: 1px solid black;
+
+}

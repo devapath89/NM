@@ -4,52 +4,60 @@
 
 
  .Item-container {
+   top:0.1vh;
    display: grid;
    background-color: darkgreen;
    position: absolute;
+   width:100%;
+   height:75.2%;
+   border:1px solid black;
 
-   width:49.9vw;
-   height:15.3vh;
-   border-bottom: 1px solid black;
+   
  }
 .item1{
   display: grid;
-    position: absolute;
-border-bottom: 1px solid black;
+    position: relative;
+    border: 1px solid black;
+
 }
 .ItemTg1{
   display: grid;
-    position: absolute;
-  border-bottom: 1px solid black;
+  position: relative;
+  border: 1px solid black;
 }
 .ItemTg2{
   display: grid;
-    position: absolute;
+  position: relative;
+  border: 1px solid black;
 
 }
 .Item2{
   display: grid;
-    position: absolute;
-;
+  position: relative;
+    border: 1px solid black;
+
 }
 .ItemTg3{
   display: grid;
-    position: absolute;
+  position: relative;
+  border: 1px solid black;
 
 }
 .Item3{
   display: grid;
-    position: absolute;
- border-bottom: 1px solid black; 
+     position: relative;
+    border: 1px solid black;
 }
 .ItemTg{
   display: grid;
-    position: absolute;
-  border-bottom: 1px solid black;
+     position: relative;
+    border: 1px solid black;
+  
 }
 .ItemEq{
 display: grid;
-    position: absolute;
+     position: relative;
+    border: 1px solid black;
 
 }
  

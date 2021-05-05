@@ -1,201 +1,107 @@
 
- .qq {display: grid;
-  position: absolute;
-background-color: darkslateblue;
-justify-content: center;
-top:50vh;
-right:88.4vw;
-width:9.5vw;
-height:5vh;
-border:1px solid black;
-}
- .used{display: grid;
-    position: absolute;
-  background-color: darkslateblue;
-  justify-content: center;
-  top:55vh;
-  right:88.4vw;
-width:9.5vw;
-  height:5vh;
-  border:1px solid black;
-}
 /*all stat container*/
 
-/*all primary stats*/
-.Primestat-containers{
-    display: grid;
-      position: absolute;
+.StatRelated {
+  top:34.8vh;
+  position: absolute;
+  width:100%;
+  height:100%; 
 }
+
+
 .The-Stats{
-  
-    border:1px solid black;
+  font-size: 2vw;
+  border:1px solid black;
     display: grid;
       position: absolute;
     justify-content: center;
     background-color: blue;
-    top:70vh;
-     height:07.13vh;
-     width:49.9vw;
+     height:10%;
+     width:100%;
+     top:0.1vh;
      border-bottom: 2px solid black;
      
     }
-    .statnames{
-        justify-content: center;
-         position: absolute;
-        display:grid;
-        grid-template-columns:2vw;
-        grid-column:auto;
-          border-bottom:1px solid black;
-        background-color: rgb(77, 15, 15);
-       justify-items: center;
-        }
+  .Stats{
+    display: grid;
+      position: absolute;
+      width:100%;
+      height:100%;
+      font-size:2.2vh;
+      font-weight: bold;
+      bottom:44.7vh;}
 
- 
-.txt{
+   /*all primary stats*/
+ .Primestat-containers{
+  
+  
   display: grid;
-  justify-content: center;
-  right:130vw;
-  bottom:16.19vh;
-  /* width:;
-  height:; */
- 
-}
-
-
-/* The inputt stats */
-.input-container{
-    background-color: teal;
-     position: absolute;
-       border:solid 1px black; 
-     justify-content: center;
-     
-     width:8.8vw;
-     height:07vh;
-    
-     }
-     #inn{
-        display: grid;
-          position: absolute;
-        }
-.input-containers {
-    display: grid;
     position: absolute;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-   }
-   .input-containers{
-    display: grid;
-    position: absolute;
-   
-     width:09.5vw;
-   }
-.s01{  
-    border-bottom: 1px solid black; 
-      position: absolute;
-   background-color:teal;
-    display:grid;
-  }
-.s02{border-bottom: 1px solid black; 
-      position: absolute;
-  background-color:teal;
-    display:grid;
-   
-   }
-.s03{
-    border-bottom: 1px solid black;
-       position: absolute;
-  background-color:teal;
-     display:grid;
-   }
-.s04{    border-bottom: 1px solid black;
-      position: absolute;
-   background-color:teal;
-    display:grid;
-   }
-.s05{    border-bottom: 1px solid black;
-      position: absolute;
-  background-color:teal;
-    display:grid;
-    
- }
-.s06{border-bottom: 1px solid black;
-      position: absolute;
-  background-color:teal;
-    display:grid;
-    
+    width:100%;
+    height:100%;
 }
-.s07{border-bottom: 1px solid black;
-      position: absolute;
-  background-color:teal;
-    display:grid;
-   }
-.s08{border-bottom: 1px solid black;
-      position: absolute;
-    background-color:teal;
-    display:grid;
+.Secondary-containers{
+  display: grid;
+  position: absolute;
+  width:100%;
+  height:82%;
+  top:-3.2vh;
   }
-.s09{border-bottom: 1px solid black;
-      position: absolute;
-    background-color:teal;
-    display:grid;
-  }
-.s10{border-bottom: 1px solid black;
-      position: absolute;
-    display:grid;
-    background-color:teal;
- 
-  }
-.s11{border-bottom: 1px solid black;
-      position: absolute;
-    background-color:teal;
-    display:grid;
-}
-.s12{border-bottom: 1px solid black;
-      position: absolute;
-    display:grid;
-    background-color:teal;
-}   
-.s13{border-bottom: 1px solid black;
-      position: absolute;
-    display:grid;
-    background-color:teal;
-    ;}
-.s14{border-bottom: 1px solid black;
-      position: absolute;
-    background-color:teal;
-    display:grid;
-   }
- 
-.s15{border-bottom: 1px solid black;
-      position: absolute;
-    background-color:teal;
-    display:grid;
-} 
-.s16{ border-bottom: 1px solid black;
-      position: absolute;
-    background-color:teal;
-    display:grid;
-}
-.s17{border-bottom: 1px solid black;
-      position: absolute;
-    background-color:teal;
-    display:grid;
-   }
-.s18{border-bottom: 1px solid black;
-      position: absolute;
-    background-color:teal;
-    display:grid;
-    }
-.s19{border-bottom: 1px solid black;
-      position: absolute;
-    display:grid;
-   }
-.s20{border-bottom: 1px solid black;
-      position: absolute;
-    display:grid;
-   } 
+/* all Primary and secondary  stat Divs  is in  \childnParent.css*/
 
 
 
+
+
+.Atk{
+  bottom:0.3vh;
+}
+
+.Strike{
+  bottom:0.1vh;
+}
+
+.Hit{
+  bottom:-0.1vh;
+}
+
+.Re-Roll{
+  bottom:-0.3vh;
+}
+
+.Focus{
+  bottom:-0.3vh;
+}
+
+.Focus-Burst{
+  bottom:-0.3vh;
+}
+
+.Focus-Range{
+  bottom:-0.3vh;
+}
+
+.Buki-Boost{
+  bottom:-0.3vh;
+}
+
+.Buki-Rec{
+  bottom:-0.3vh;
+}
+
+.Gen-Act{
+  bottom:-0.3vh;
+}
+
+.Gen-Mastery{
+  bottom:-0.3vh;
+}
+
+.Gen-Rec{
+  bottom:-0.3vh;
+}
+
+.Endu{
+  bottom:-0.3vh;
+}
 

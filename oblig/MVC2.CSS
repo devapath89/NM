@@ -3,10 +3,17 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-    overflow: hidden;  
+  overflow: hidden; 
  }
 
+ .grid-container {
+  
+   position: absolute;
+   height:100%;
+   width:100%;
+ }
 
+ 
 /* page related stuff */
 /* Chrome, Safari, Edge, Opera removes arrows*/
 input::-webkit-outer-spin-button,
@@ -22,27 +29,44 @@ input[type=number] {
 
 /* evry thing in sheet 1. not under classes */
 .Ninjasheet1-containers{
-  position: absolute;
+  position:relative;
   width:100vw;
   height:100vh;
-  justify-items:stretch;
+  border:1px solid seagreen;
   
 }
 /*div that draws out stuff*/
 #selectResult {
   display: grid;
   position: absolute;
-  width:97%;
-  height:97%;
+  top:0vh;
+  height:100%;
+  width:100%;
+ /* background-color: lightblue; */
+
   justify-self: stretch;
   }
   #hovedSide {
     display: grid;
   position: absolute;
-  width:14%;
-  height:4vh;
-  left:35vw;
+  
   }
 
+ /* ninja  img related*/
+  .ninja{
+    left:-0.1vw;
+    height:27%;
+    width:10%;
+    position: absolute;
+    border:2px solid black;
+  }
+  .ninjaImg{ /*the img*/
+    position: absolute;
+    height:20%;
+    width:8%;
  
-
+     }
+     img { /*img scaling*/
+      width: 100%;
+      height: 100%;
+    }/*end off img */

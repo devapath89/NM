@@ -1,0 +1,137 @@
+.a1{
+  left:10.2vw;
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:20.3vh;
+    font-size: 1.2vw;
+  text-align: center;
+  }
+
+.er{ /*cost and chakra container */
+    height:140%;
+    top:-0.1vh;
+    width:110%;
+    position: absolute;
+    border: 1px solid red;
+  }/*end of cost and chakra container  */
+  
+.cost {
+  height:100%;
+  background-color: blueviolet;
+  position: absolute;
+  width:100%;
+  font-weight: bold;
+}
+.chakra {
+  height:100%;
+  background-color: blueviolet;
+  position:absolute;
+  font-weight: bold;
+  width:100%;
+}
+.fq{
+  left:13.7vw;
+  top:-0.1vh;
+  position: absolute;
+  width:60%;
+  height:60%;
+  
+  
+}
+/*cost reduction*/
+.Fixed1{
+  position: relative;
+  width:100%;
+  height:110%;
+  right:12.2vw;
+  
+}
+.Fixed2{ position:relative;
+width:100%;
+height:108%;
+bottom:3.3vh;
+
+}
+.quarter1{ 
+  left:0.01vw;
+  background-color: turquoise;
+  position:absolute;
+   display: grid;
+   position:absolute;
+ border:1px solid black;
+ width:101%;
+ height:100%;
+
+   
+ }
+ .NY{/*for quarter 1 Forbidden */
+  position: relative; 
+  display: grid;
+  position:absolute;
+  justify-content: center;
+  background-color: hotpink;
+  border:2px solid black;
+  top:100%;
+  width:100%;
+  height:100%;
+}
+
+.quarter2{/*txt box*/
+  left:0.01vw;
+  background-color: turquoise;
+  position:absolute;
+   display: grid;
+   position:absolute;
+ border:1px solid black;
+ width:101%;
+ height:100%;
+  
+   
+}
+ .YN{ /*for quarter 2 Fixed chakra  */
+  position: relative;
+  display: grid;
+  position:absolute;
+  justify-content: center;
+  background-color: hotpink;
+  border:2px solid black;
+  top:100%;
+  width:100%;
+  height:100%;
+ }
+ /*end off cost reduction*/
+
+ /* seal  container   */
+ .Seals{
+   left:5.9vw;
+    display: grid;
+    position: absolute;
+    justify-content: center;
+  font-size:3vh;
+  border: 1px solid black;
+    width:100%;
+    height:135%;
+    
+  }/*end off seal tag */
+.SealTag{/* seal tag box */
+background-color: crimson;
+display: grid;
+position: absolute;
+justify-content: center;
+font-weight: bold;
+border-left: 1px solid black;
+width:100%;
+height: 100%;
+}
+.Seal{
+display: grid;
+font-weight: bold;
+background-color: crimson;
+position: absolute;
+width:100%;
+justify-content: center;
+height: 100%;
+}
+/*end off seal container */
+

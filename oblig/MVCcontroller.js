@@ -1,10 +1,10 @@
 const model = {
-    DemStats:[]
+    
 }
 let LVL = "";
 //lvling "system"
 function multiplyBy(){
-  {   document.getElementById("result").innerHTML = ""
+     document.getElementById("result").innerHTML = ""
          var LVL = parseInt(document.getElementById("LVL").value);
         
          for (let obj of Ninjas) {
@@ -25,21 +25,20 @@ function multiplyBy(){
     
                             //console.log(isNaN(statValue) , "<- isNAN check  typeof: " , typeof(statValue)  )
                             document.getElementById("result").innerHTML += `<li>:${(growthValue * LVL) + statValue -growthValue}</li>`;
-                            model.DemStats.push ((growthValue * LVL) + statValue -growthValue)
+                            DemStats.push ((growthValue * LVL) + statValue -growthValue)
                             
                             
                             //return growthValue * LVLvalue
                            
                            }
                     }
-                    console.log (model.DemStats,'hei')
+                    console.log (DemStats,'hei')
             }    // document.getElementById("result").innerHTML += `<li>${(growth * Lvl) + stat}</li>`;
     
             
       
         } 
-    }
-}
+    }  makeDivs()
 }
 
 

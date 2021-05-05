@@ -1,0 +1,56 @@
+.Ninjasheet1-containers { grid-area: 1 / 1 / 6 / 5; }
+.ninja { grid-area: 1 / 1 / 3 / 2; }
+.Ninjainfo1-containers {
+  display: grid;
+  grid-template-columns: 50% 60%;
+  grid-template-rows: 100%;
+  gap: 0px 0px;
+  grid-template-areas:
+    "a3 a4";
+  grid-area: 1 / 2 / 2 / 5;
+}
+.a3 {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  gap: 0px 0px;
+  grid-template-areas:
+    "hei"
+    "theninja"
+    "LVLbox";
+  grid-area: a3;
+}
+.hei { grid-area: hei; }
+.theninja { grid-area: theninja; }
+.LVLbox { grid-area: LVLbox; }
+.a4 {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 50%;
+  gap: 0px 0px;
+  grid-template-areas:
+    "position"
+    "Penalty-containers";
+  grid-area: a4;
+}
+.position { grid-area: position; }
+.Penalty-containers {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 25% 25% 25% 25%;
+  gap: 0px 0px;
+  grid-template-areas:
+    "is-off"
+    "Y-N"
+    "offpos"
+    "pen";
+  grid-area: Penalty-containers;
+}
+.is-off { grid-area: is-off; }
+.Y-N { grid-area: Y-N; }
+.offpos { grid-area: offpos; }
+.pen { grid-area: pen; }
+.a1 { grid-area: 2 / 2 / 3 / 5; }
+.a2 { grid-area: 3 / 1 / 4 / 5; }
+.StatRelated { grid-area: 4 / 1 / 5 / 5; }
+.Dmgout-containers { grid-area: 5 / 1 / 6 / 5; }

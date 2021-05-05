@@ -1,4 +1,5 @@
 let selectedNinja = "";
+let DemStats=[]
 const Ninjas =[  
 {
     "Chakra": 130,
