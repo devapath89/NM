@@ -7,7 +7,7 @@
 
                 <!-- finalized CSS -->
     <link rel="stylesheet" href="GridContainers.css">
-   <link rel="stylesheet" href="MVC2.CSS">
+    <link rel="stylesheet" href="MVC2.CSS">
     <link rel="stylesheet" href="infosheet.css">
     <link rel="stylesheet" href="Stats.css">
     <link rel="stylesheet" href="a1.css">
@@ -16,14 +16,13 @@
     <link rel="stylesheet" href="innput.css">
     <link rel="stylesheet" href="childnParent.css">
     <link rel="stylesheet" href="Dmgout.css">
-                <!-- needs to be edited -->
-    <link rel="stylesheet" href="Itemview.CSS">
-   
     <link rel="stylesheet" href="item.css">
-    <link rel="stylesheet" href="othervari.css">
     <link rel="stylesheet" href="Effi.css">
-                <!-- empty CSS -->
-
+    <link rel="stylesheet" href="Itemview.CSS">
+        <!-- needs to be edited -->
+        <!-- empty CSS -->
+    <link rel="stylesheet" href="othervari.css">
+    <!-- JS files -->
     <script src="MVC.JS"></script>
     <script src="MVCDIVS.js"></script>
     <script src="LVLUP.js"></script>
@@ -31,7 +30,8 @@
     <script src="Secondarystats.JS"></script>
     <script src="Equipment.js"></script>
     <script src="LW.js"></script>
-    <script src="Itemview.js"></script>
+    <script src="Itemview.js"></script> 
+    <script src="mathstuff.js"></script>
  </head>
 <body>
     <!-- //ninja 1 sheet1 tabel with lots off containers// -->
@@ -53,21 +53,21 @@ var selectResult = document.getElementById('selectResult')
 updateViewItem()
 
 //  MakeDropDown();
-  selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
-//  function MakeDropDown() {
-//          let html = `<select class="hei" onchange="selectNinja(this.value)">` ;
-//              // console.log("make dropdown kjører")
-//          for(let ninja of Ninjas){
-//            html +=`<option>${ninja.NinjaName}</option>`
-//          }
-//          html += '</select>'
+   selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+ function MakeDropDown() {
+         let html = `<select class="hei" onchange="selectNinja(this.value)">` ;
+             console.log("make dropdown kjører")
+         for(let ninja of Ninjas){
+           html +=`<option>${ninja.NinjaName}</option>`
+         }
+         html += '</select>'
 
-//          hovedSide.innerHTML = html;
+         hovedSide.innerHTML = html;
 
-//      }
+     }
 function selectNinja(clickedNinja) {
         selectedNinja = clickedNinja;
-         selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+          selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
         makeDivs();
     }
 

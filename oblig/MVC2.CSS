@@ -47,8 +47,12 @@ input[type=number] {
   justify-self: stretch;
   }
   #hovedSide {
+    bottom:50vh;
+    left:40vw;
     display: grid;
-  position: absolute;
+  position:relative;
+  width:20%;
+  height:20%;
   
   }
 

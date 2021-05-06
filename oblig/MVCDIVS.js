@@ -86,7 +86,7 @@ function makeDivs(){
 
              html +=`<div class="bonusstat">`
              html += `<div class="qq"><b>Statpoints used</b></div>`
-             html += `<div class="used"><b>used stat points</b></div>`
+             html += `    <input type="text" id="txtTotal" placeholder="0"class="used">`
              html += `</div>` //end off bonusstat//
              
              html +=`<div class="Item-container">`
@@ -119,26 +119,26 @@ function makeDivs(){
 
             html += `<div class="input-containers">`
 
-       html += `<input  type="number" id="inn" name="ticketNum" class="s01" >`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s02" >`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s03" >`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s04" min="0" max="45">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s05" min="0" max="45">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s06" min="0" max="45">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s07" min="0" max="0">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s08" min="0" max="10">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s09" min="0" max="21">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s10" min="0" max="15">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s11" min="0" max="10">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s12" min="0" max="15">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s13" min="0" max="0">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s14" min="0" max="0">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s15" min="0" max="0">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s16" min="0" max="0">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s17" min="0" max="0">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s18" min="0" max="0">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s19" min="0" max="0">`
-       html += `<input  type="number" id="inn" name="ticketNum" class="s20" min="0" max="0">`
+       html += ` <input type="text" id="s01" placeholder="0" onKeyUp="javascript:Add();"class="s01">` 
+       html += ` <input type="text" id="s02" placeholder="0" onKeyUp="javascript:Add();"class="s02">`
+       html += ` <input type="text" id="s03" placeholder="0" onKeyUp="javascript:Add();"class="s03" >`
+       html += ` <input type="text" id="s04" placeholder="0" onKeyUp="javascript:Add();"class="s04" min="0" max="45">`
+       html += ` <input type="text" id="s05" placeholder="0" onKeyUp="javascript:Add();"class="s05" min="0" max="45">`
+       html += ` <input type="text" id="s06" placeholder="0" onKeyUp="javascript:Add();"class="s06" min="0" max="45">`
+       html += ` <input type="text" id="s07" placeholder="0" onKeyUp="javascript:Add();"class="s07" min="0" max="0">`
+       html += ` <input type="text" id="s08" placeholder="0" onKeyUp="javascript:Add();"class="s08" min="0" max="10">`
+       html += ` <input type="text" id="s09" placeholder="0" onKeyUp="javascript:Add();"class="s09" min="0" max="21">`
+       html += ` <input type="text" id="s10" placeholder="0" onKeyUp="javascript:Add();"class="s10" min="0" max="15">`
+       html += ` <input type="text" id="s11" placeholder="0" onKeyUp="javascript:Add();"class="s11" min="0" max="10">`
+       html += ` <input type="text" id="s12" placeholder="0" onKeyUp="javascript:Add();"class="s12" min="0" max="15">`
+       html += ` <input type="text" id="s13" placeholder="0" onKeyUp="javascript:Add();"class="s13" min="0" max="0">`
+       html += ` <input type="text" id="s14" placeholder="0" onKeyUp="javascript:Add();"class="s14" min="0" max="0">`
+       html += ` <input type="text" id="s15" placeholder="0" onKeyUp="javascript:Add();"class="s15" min="0" max="0">`
+       html += ` <input type="text" id="s16" placeholder="0" onKeyUp="javascript:Add();"class="s16" min="0" max="0">`
+       html += ` <input type="text" id="s17" placeholder="0" onKeyUp="javascript:Add();"class="s17" min="0" max="0">`
+       html += ` <input type="text" id="s18" placeholder="0" onKeyUp="javascript:Add();"class="s18" min="0" max="0">`
+       html += ` <input type="text" id="s19" placeholder="0" onKeyUp="javascript:Add();"class="s19" min="0" max="0">`
+       html += ` <input type="text" id="s20" placeholder="0" onKeyUp="javascript:Add();"class="s20" min="0" max="0">`
        html += `</div>`; //end off stat + //
 
             html += `<div class="txt">`; //statnames //
