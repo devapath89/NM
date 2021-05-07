@@ -85,7 +85,9 @@ function makeDivs(){
              html +=`<div class="a2">`
 
              html +=`<div class="bonusstat">`
-             html += `<div class="qq"><b>Statpoints used</b></div>`
+
+            
+             html += `<div class="qq"/b><label for="txtTotal"><b>Statpoints used:</label></div>`
              html += `    <input type="text" id="txtTotal" placeholder="0"class="used">`
              html += `</div>` //end off bonusstat//
              
@@ -139,6 +141,7 @@ function makeDivs(){
        html += ` <input type="text" id="s18" placeholder="0" onKeyUp="javascript:Add();"class="s18" min="0" max="0">`
        html += ` <input type="text" id="s19" placeholder="0" onKeyUp="javascript:Add();"class="s19" min="0" max="0">`
        html += ` <input type="text" id="s20" placeholder="0" onKeyUp="javascript:Add();"class="s20" min="0" max="0">`
+       console.log (Add)
        html += `</div>`; //end off stat + //
 
             html += `<div class="txt">`; //statnames //
