@@ -52,14 +52,17 @@ var selectResult = document.getElementById('selectResult')
 
 updateViewItem()
 
-//  MakeDropDown();
-   selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+ MakeDropDown();
+  //  selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
  function MakeDropDown() {
-         let html = `<select class="hei" onchange="selectNinja(this.value)">` ;
-             console.log("make dropdown kjører")
-         for(let ninja of Ninjas){
+         let html = `<select onclick="selectNinja(this.value)">` ;
+             console.log("make dropdown kjører",Ninjas)
+            //  for(let ninja of Ninjas){}
+        //  for(let i =1; i <3; i++){}
+          for(let ninja of Ninjas){
            html +=`<option>${ninja.NinjaName}</option>`
          }
+         console.log (html)
          html += '</select>'
 
          hovedSide.innerHTML = html;
@@ -67,7 +70,7 @@ updateViewItem()
      }
 function selectNinja(clickedNinja) {
         selectedNinja = clickedNinja;
-          selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+          //  selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
         makeDivs();
     }
 
